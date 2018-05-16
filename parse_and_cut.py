@@ -110,6 +110,6 @@ def make_cut():
     file.close()
     print("Dumping cut dataset success!")
 
-
-make_dict()
-make_cut()
+def prepare():
+    make_dict()
+    make_cut()

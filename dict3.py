@@ -94,43 +94,90 @@ def run(learnlist,checklist,dict):
                 class_dict[class_record_l[CURRENT_CLASS]][MEMBERS]+=' '+aWord+appear+str(abs)
             difference+=abs
 
-    return difference/sum,sum,len(common_class),class_dict
+    if sum!=0:
+        return difference/sum,sum,len(common_class),class_dict
+    else:
+        return difference-100,sum,len(common_class),class_dict
 
 
-dict=get_dict()
+def com_all():
+
+    dict=get_dict()
 
 
-for i in range(0,len(database)):
-    for j in range(i+1, len(database)):
+    for i in range(0,len(database)):
+        for j in range(i+1, len(database)):
 
-        with open('data/cut/'+database[i]+'.txt') as file1:
-            list1=file1.read().split()
+            with open('data/cut/'+database[i]+'.txt') as file1:
+                list1=file1.read().split()
 
-        with open('data/cut/'+database[j]+'.txt') as file2:
-            list2=file2.read().split()
+            with open('data/cut/'+database[j]+'.txt') as file2:
+                list2=file2.read().split()
 
-        index,sum1,sum2,class_dict=run(list1,list2,dict)
+            index,sum1,sum2,class_dict=run(list1,list2,dict)
 
-        sorted_class=[]
+            sorted_class=[]
+            for key in class_dict:
+                class_record=class_dict[key]
+                sorted_class.append((key,class_record[CLASS_PARTICIPATION],class_record[DIMENSION],class_record[MEMBERS]))
+
+
+            sorted_class=sorted(sorted_class,key=lambda tuple: tuple[1],reverse=True)
+
+            result='learn:'+database[i]+' check:'+database[j]+' \t Result: \t'+str(index)+' \t'+str(sum1)+' \t'+str(sum2)
+            print(result)
+
+            result+='\n\n\n'
+            l=0
+            for k in sorted_class:
+                if l<=1000:
+                    result+="\n  \tclass: "+k[0]+"  \td: "+str(k[2])+"  \tpt: "+str(k[1])+"  \tdiff: "+k[3]
+                    l+=1
+                else:
+                    break
+            rfile=open('data/result/'+str(i)+' v. '+str(j)+'.txt','w')
+            rfile.write(result)
+            rfile.close()
+
+def cmp_article(learn_set,check_set,list_of_article):
+    dict=get_dict()
+
+    with open('data/cut/' + learn_set + '.txt') as file1:
+        list1 = file1.read().split()
+
+    for article in list_of_article:
+        list2=article[3].split()
+        index, sum1, sum2, class_dict = run(list1, list2, dict)
+
+        sorted_class = []
         for key in class_dict:
-            class_record=class_dict[key]
-            sorted_class.append((key,class_record[CLASS_PARTICIPATION],class_record[DIMENSION],class_record[MEMBERS]))
+            class_record = class_dict[key]
+            sorted_class.append(
+                (key, class_record[CLASS_PARTICIPATION], class_record[DIMENSION], class_record[MEMBERS]))
+
+        sorted_class = sorted(sorted_class, key=lambda tuple: tuple[1], reverse=True)
 
 
-        sorted_class=sorted(sorted_class,key=lambda tuple: tuple[1],reverse=True)
+        title=article[2]
+        title=title.replace('/','div')
+        title=title.replace('.','point')
 
-        result='learn:'+database[i]+' check:'+database[j]+' \t Result: \t'+str(index)+' \t'+str(sum1)+' \t'+str(sum2)
+        result = 'learn:' + learn_set + ' check Article'+article[0]+':' + title + ' \t Result: \t' + str(index) + ' \t' + str(
+            sum1) + ' \t' + str(sum2)
         print(result)
 
-        result+='\n\n\n'
-        l=0
+        result += '\n\n\n'
+        l = 0
         for k in sorted_class:
-            if l<=1000:
-                result+="\n  \tclass: "+k[0]+"  \td: "+str(k[2])+"  \tpt: "+str(k[1])+"  \tdiff: "+k[3]
-                l+=1
+            if l <= 1000:
+                result += "\n  \tclass: " + k[0] + "  \td: " + str(k[2]) + "  \tpt: " + str(k[1]) + "  \tdiff: " + k[3]
+                l += 1
             else:
                 break
-        rfile=open('data/result/'+str(i)+' v. '+str(j)+'.txt','w')
+        rfile = open('data/result/chk_article/' + learn_set + '.v.' + check_set+ ":"+article[0]+":"+title + '.txt', 'w')
         rfile.write(result)
         rfile.close()
 
+cut_dataset=get_cut_dataset()
+listofa=cut_dataset['dsjwz.csv']
+cmp_article('jqzx.csv','dsjwz.csv',listofa)

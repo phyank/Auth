@@ -1,0 +1,1005 @@
+learn:jqzx.csv check Article6:【岛读】雄安之后看海南 	 Result: 	0.2587879457668662 	516 	169
+
+
+
+  	class: 帮助  	d: 37  	pt: 2.0  	diff:  帮A0.7272727272727273 赞助A0.06818181818181818 协助A0.1590909090909091 助A0.022727272727272728 帮忙A0.022727272727272728 扶持B1.0
+  	class: 关键  	d: 11  	pt: 2.0  	diff:  焦点A0.45454545454545453 关节A0.45454545454545453 点子A0.045454545454545456 症结A0.022727272727272728 纽带A0.022727272727272728 枢纽B1.0
+  	class: 比赛  	d: 8  	pt: 2.0  	diff:  角A0.9090909090909091 交锋A0.09090909090909091 竞技B1.0
+  	class: 港口  	d: 7  	pt: 2.0  	diff:  港A1.0 港口B1.0
+  	class: 住房  	d: 9  	pt: 2.0  	diff:  宅A0.5 住宅A0.5 住房B1.0
+  	class: 领土  	d: 12  	pt: 2.0  	diff:  版图A0.75 国土A0.25 领土B1.0
+  	class: 稀少  	d: 27  	pt: 2.0  	diff:  层层A0.06666666666666667 罕见A0.5333333333333333 稀有A0.06666666666666667 稀缺A0.13333333333333333 少有A0.06666666666666667 鲜有A0.13333333333333333 稀少B1.0
+  	class: 适逢  	d: 6  	pt: 2.0  	diff:  时值A0.25 适值A0.75 正逢B1.0
+  	class: 方法  	d: 11  	pt: 1.9974042829331604  	diff:  方式A0.19857235561323816 方法A0.7744970798182998 办法A0.01654769630110318 艺术A0.009085009733939001 措施AB0.9987021414665801
+  	class: 实行  	d: 11  	pt: 1.996923076923077  	diff:  执行A0.7307692307692307 实践A0.11076923076923077 实施A0.07076923076923076 行A0.08461538461538462 执A0.0015384615384615385 实行AB0.9984615384615385
+  	class: 减少  	d: 22  	pt: 1.984251968503937  	diff:  减少A0.47244094488188976 压缩A0.34908136482939633 减去A0.05774278215223097 缩减A0.03674540682414698 减小A0.07349081364829396 削减AB0.9921259842519685 裁减A0.0026246719160104987
+  	class: 增长  	d: 6  	pt: 1.978494623655914  	diff:  添加A0.6290322580645161 长A0.33064516129032256 日益增长AB0.989247311827957 累加A0.02956989247311828
+  	class: 集合  	d: 28  	pt: 1.975103734439834  	diff:  集合A0.6680497925311203 集A0.008298755186721992 聚合A0.2157676348547718 聚拢A0.004149377593360996 聚集A0.05394190871369295 汇聚A0.004149377593360996 集聚AB0.9875518672199171 成团A0.004149377593360996 聚A0.012448132780082987 集结A0.004149377593360996 汇A0.012448132780082987
+  	class: 收  	d: 13  	pt: 1.9722222222222223  	diff:  接收A0.7777777777777778 收到A0.1388888888888889 接下A0.006944444444444444 收取A0.041666666666666664 接到A0.006944444444444444 吸收A0.013888888888888888 吸纳AB0.9861111111111112
+  	class: 快  	d: 27  	pt: 1.966942148760331  	diff:  高效A0.9504132231404959 飞速AB0.9834710743801653 快捷A0.008264462809917356 长足A0.004132231404958678 飞跃A0.02066115702479339
+  	class: 优越  	d: 12  	pt: 1.9595959595959596  	diff:  优于A0.9797979797979798 优越AB0.9797979797979798
+  	class: 旅客  	d: 4  	pt: 1.9393939393939394  	diff:  行人A0.9696969696969697 旅客AB0.9696969696969697
+  	class: 脆弱  	d: 10  	pt: 1.9310344827586206  	diff:  脆弱A0.41379310344827586 软A0.5517241379310345 薄弱AB0.9655172413793104
+  	class: 对待  	d: 3  	pt: 1.9090909090909092  	diff:  看待A0.9545454545454546 待遇AB0.9545454545454546
+  	class: 完成  	d: 18  	pt: 1.9047619047619047  	diff:  成就A0.9523809523809523 到位AB0.9523809523809523
+  	class: 照射  	d: 10  	pt: 1.9018404907975461  	diff:  映射A0.9202453987730062 投A0.03067484662576687 投射AB0.950920245398773
+  	class: 带动  	d: 5  	pt: 1.8981481481481481  	diff:  带来A0.9444444444444444 带动AB0.9490740740740741 拉动A0.004629629629629629
+  	class: 广泛  	d: 14  	pt: 1.8802395209580838  	diff:  常见A0.8143712574850299 宽泛A0.04790419161676647 广阔AB0.9401197604790419 广A0.059880239520958084 宽广A0.017964071856287425
+  	class: 政策  	d: 5  	pt: 1.8761904761904762  	diff:  策略A0.9357142857142857 政策AB0.9380952380952381 方针A0.002380952380952381
+  	class: 因素  	d: 3  	pt: 1.8701298701298699  	diff:  因素A0.25 要素AB0.935064935064935 元素A0.685064935064935
+  	class: 头等  	d: 11  	pt: 1.855072463768116  	diff:  顶级A0.782608695652174 一流A0.13043478260869565 头号A0.014492753623188406 世界级AB0.927536231884058
+  	class: 比重  	d: 5  	pt: 1.8518518518518519  	diff:  比重AB0.9259259259259259 比例A0.7160493827160493 百分比A0.20987654320987653
+  	class: 参阅  	d: 4  	pt: 1.8222222222222222  	diff:  参照AB0.9111111111111111 参考A0.7833333333333333 参阅A0.1111111111111111 参看A0.016666666666666666
+  	class: 数量  	d: 7  	pt: 1.8137351778656126  	diff:  数据A0.8997035573122529 数量AB0.9068675889328063 数目A0.00691699604743083 数额A0.00024703557312252963
+  	class: 气候  	d: 3  	pt: 1.8095238095238095  	diff:  气候AB0.9047619047619048 天气A0.9047619047619048
+  	class: 放大  	d: 8  	pt: 1.788235294117647  	diff:  放大A0.2235294117647059 推广A0.5764705882352941 放A0.09411764705882353 加大AB0.5725490196078431 放开AB0.32156862745098036
+  	class: 任意  	d: 17  	pt: 1.7853107344632768  	diff:  任意A0.7627118644067796 自由AB0.8926553672316384 轻易A0.12994350282485875
+  	class: 扩大  	d: 8  	pt: 1.728937728937729  	diff:  扩展A0.8241758241758241 扩张AB0.8644688644688645 扩充A0.040293040293040296
+  	class: 表达  	d: 5  	pt: 1.7045454545454546  	diff:  表达A0.7329545454545454 表述A0.11931818181818182 发挥AB0.8522727272727273
+  	class: 加以  	d: 2  	pt: 1.6805555555555556  	diff:  加AB0.8402777777777778 给定A0.8402777777777778
+  	class: 比率  	d: 2  	pt: 1.6666666666666667  	diff:  比率A0.8333333333333334 比值AB0.8333333333333334
+  	class: 消除  	d: 43  	pt: 1.6543209876543212  	diff:  免去A0.018518518518518517 解除A0.030864197530864196 排A0.06790123456790123 排除A0.08641975308641975 脱A0.006172839506172839 解A0.46296296296296297 去掉A0.08024691358024691 消除AB0.8271604938271605 打消A0.006172839506172839 散A0.012345679012345678 清除A0.024691358024691357 破除A0.006172839506172839 破A0.012345679012345678 消A0.012345679012345678
+  	class: 占有  	d: 8  	pt: 1.6455696202531647  	diff:  占用A0.379746835443038 占A0.43037974683544306 占据AB0.8227848101265822 霸占A0.012658227848101266
+  	class: 时期  	d: 4  	pt: 1.6404494382022472  	diff:  时代A0.8202247191011236 时期AB0.8202247191011236
+  	class: 团体  	d: 6  	pt: 1.6278026905829595  	diff:  组织AB0.8139013452914798 团队A0.7690582959641256 团体A0.042600896860986545 社A0.002242152466367713
+  	class: 人数  	d: 8  	pt: 1.6111111111111112  	diff:  人口AB0.8055555555555556 人数A0.7777777777777778 人头A0.027777777777777776
+  	class: 出席  	d: 11  	pt: 1.565217391304348  	diff:  临场A0.043478260869565216 出席AB0.782608695652174 参加A0.6956521739130435 在场A0.043478260869565216
+  	class: 近似  	d: 17  	pt: 1.5414781297134237  	diff:  类似A0.4947209653092006 接近AB0.770739064856712 看似A0.02564102564102564 相近A0.042232277526395176 类A0.02564102564102564 近似A0.15987933634992457 相仿A0.004524886877828055 好像A0.01809954751131222
+  	class: 有利  	d: 16  	pt: 1.5161290322580645  	diff:  有益A0.1774193548387097 便利A0.25806451612903225 有利于AB0.7580645161290323 便宜A0.22580645161290322 利于A0.03225806451612903 造福A0.04838709677419355 利A0.016129032258064516
+  	class: 特征  	d: 6  	pt: 1.4930955120828537  	diff:  特征AB0.4496547756041427 特性A0.04660529344073648 表征A0.25028768699654774 特色AB0.746547756041427
+  	class: 地方  	d: 5  	pt: 1.4766355140186915  	diff:  地区AB0.7383177570093458 域A0.6728971962616822 地带A0.018691588785046728 地域A0.04672897196261682
+  	class: 缺少  	d: 14  	pt: 1.4625000000000001  	diff:  缺乏AB0.73125 缺失A0.21875 缺少A0.1 短A0.29375 短缺A0.00625 欠A0.09375 缺A0.00625 紧缺A0.0125
+  	class: 怎样  	d: 17  	pt: 1.4285714285714286  	diff:  争A0.7142857142857143 安AB0.7142857142857143
+  	class: 超过  	d: 10  	pt: 1.4  	diff:  超出A0.52 超乎A0.12 胜出A0.06 高于AB0.7
+  	class: 领导  	d: 14  	pt: 1.3894736842105264  	diff:  领导者A0.12631578947368421 负责人A0.42105263157894735 官员A0.042105263157894736 领导AB0.6947368421052631 管理者A0.031578947368421054 决策者A0.07368421052631578
+  	class: 乐观  	d: 12  	pt: 1.3714285714285714  	diff:  乐观A0.21428571428571427 有望AB0.6857142857142857 乐观主义A0.014285714285714285 达观A0.44285714285714284 开阔A0.014285714285714285
+  	class: 差别  	d: 6  	pt: 1.3580246913580247  	diff:  差异A0.6790123456790124 差距AB0.6790123456790124
+  	class: 资本  	d: 12  	pt: 1.3463331920305213  	diff:  成本AB0.5485375158965664 资本AB0.30394234845273416 基金A0.08902077151335312 资产A0.02967359050445104 资金AB0.3692242475625265 财力A0.005934718100890208
+  	class: 相等  	d: 11  	pt: 1.3385826771653542  	diff:  相当于AB0.6692913385826771 等于A0.5275590551181102 等价A0.14173228346456693
+  	class: 重要  	d: 29  	pt: 1.3333333333333335  	diff:  关键A0.3923076923076923 重点AB0.6666666666666667 重要性A0.2282051282051282 着重A0.046153846153846156
+  	class: 关头  	d: 8  	pt: 1.3333333333333335  	diff:  转折点A0.6666666666666666 契机AB0.6666666666666667
+  	class: 标准  	d: 12  	pt: 1.295843520782396  	diff:  条件AB0.5050646175340552 基准A0.34474327628361856 原则A0.12469437652811736 尺度A0.1784841075794621 规格B0.14285714285714285
+  	class: 进项  	d: 8  	pt: 1.2830188679245282  	diff:  收入AB0.6415094339622642 收益A0.6226415094339622 获益A0.018867924528301886
+  	class: 全面  	d: 29  	pt: 1.2794117647058825  	diff:  完美A0.5808823529411765 完善AB0.6397058823529411 圆A0.051470588235294115 健全A0.007352941176470588
+  	class: 超越  	d: 9  	pt: 1.25626204238921  	diff:  超过AB0.628131021194605 超A0.279383429672447 跳A0.09248554913294797 超越A0.1811175337186898 跨A0.0674373795761079 跨越A0.007707129094412331
+  	class: 资料  	d: 5  	pt: 1.2542372881355932  	diff:  资料A0.6101694915254238 材料AB0.6271186440677966 素材A0.01694915254237288
+  	class: 退步  	d: 13  	pt: 1.2  	diff:  落后AB0.12222222222222223 滞后AB0.4777777777777778 向下A0.17777777777777778 退化A0.35555555555555557 后退A0.022222222222222223 落伍A0.022222222222222223 倒退A0.022222222222222223
+  	class: 繁荣  	d: 51  	pt: 1.1428571428571428  	diff:  发达AB0.5714285714285714 繁荣A0.5714285714285714
+  	class: 推动  	d: 12  	pt: 1.1048387096774195  	diff:  有助于AB0.20474910394265233 推A0.1935483870967742 推动AB0.5524193548387097 推进A0.13620071684587814 推向A0.017921146953405017
+  	class: 希望  	d: 23  	pt: 1.0890756302521007  	diff:  希望AB0.2924369747899159 期望A0.22521008403361345 期待AB0.15630252100840336 意在A0.005042016806722689 梦想A0.021848739495798318 期AB0.38823529411764707
+  	class: 给予  	d: 13  	pt: 1.0789473684210527  	diff:  赋予AB0.4078947368421053 给予AB0.5394736842105263 予以A0.05263157894736842 授予A0.07894736842105263
+  	class: 制造  	d: 6  	pt: 1.0714285714285714  	diff:  制造A0.5357142857142857 打造AB0.5357142857142857
+  	class: 处于  	d: 9  	pt: 1.0303030303030303  	diff:  处于AB0.5151515151515151 处A0.5151515151515151
+  	class: 计划  	d: 14  	pt: 1.0108695652173914  	diff:  计划A0.5 规划AB0.5054347826086957 统筹A0.005434782608695652
+  	class: 固定  	d: 13  	pt: 1.0044444444444445  	diff:  固定A0.4622222222222222 定位AB0.5022222222222222 定点A0.017777777777777778 固化A0.022222222222222223
+  	class: 老人  	d: 14  	pt: 1.0  	diff:  老年人AB0.5 中老年人A0.5
+  	class: 岛屿  	d: 6  	pt: 1.0  	diff:  岛屿A0.5 岛AB0.5
+  	class: 放松  	d: 5  	pt: 1.0  	diff:  放松A0.25 放宽AB0.5 松A0.25
+  	class: 有  	d: 28  	pt: 0.9789227166276349  	diff:  保有A0.00234192037470726 具备AB0.2988290398126464 拥有A0.35362997658079626 持有A0.03044496487119438 富有A0.0234192037470726 颇具A0.02107728337236534 具A0.053864168618266976 享有AB0.19063231850117096 兼有A0.00234192037470726 存有A0.00234192037470726
+  	class: 加剧  	d: 10  	pt: 0.9626865671641791  	diff:  强化AB0.47388059701492535 加剧A0.007462686567164179 加深AB0.48134328358208955
+  	class: 涉及  	d: 14  	pt: 0.9132569558101472  	diff:  涉及A0.23895253682487724 提到A0.19312602291325695 关系AB0.45662847790507366 关乎A0.008183306055646482 干A0.014729950900163666 涉A0.0016366612111292963
+  	class: 设立  	d: 6  	pt: 0.8076923076923077  	diff:  举办AB0.40384615384615385 设立A0.25 开办A0.019230769230769232 开设A0.1346153846153846
+  	class: 劳力  	d: 6  	pt: 0.8  	diff:  劳动力AB0.4 工作者A0.2 劳力A0.2
+  	class: 紧密  	d: 14  	pt: 0.7547169811320755  	diff:  紧凑A0.2830188679245283 紧密AB0.37735849056603776 严密A0.03773584905660377 一体A0.05660377358490566
+  	class: 增强  	d: 9  	pt: 0.7522388059701492  	diff:  提高AB0.04136460554371002 增强A0.3347547974413646 增长AB0.3761194029850746
+  	class: 建立  	d: 7  	pt: 0.7138964577656677  	diff:  成立A0.34877384196185285 建立AB0.35694822888283384 起家A0.005449591280653951 确立A0.0027247956403269754
+  	class: 消失  	d: 45  	pt: 0.6804123711340205  	diff:  收敛AB0.3402061855670103 消失A0.30412371134020616 消散A0.005154639175257732 流失A0.030927835051546393
+  	class: 需要  	d: 11  	pt: 0.6797385620915033  	diff:  需求AB0.33986928104575165 需A0.3137254901960784 急需A0.0196078431372549 亟需A0.0032679738562091504 亟待A0.0032679738562091504
+  	class: 吸引  	d: 8  	pt: 0.676056338028169  	diff:  引发A0.28169014084507044 吸引AB0.3380281690140845 抓住A0.04225352112676056 掀起A0.014084507042253521
+  	class: 一连  	d: 16  	pt: 0.5847457627118644  	diff:  连接AB0.2923728813559322 连续A0.2860169491525424 接连A0.006355932203389831
+  	class: 中心  	d: 11  	pt: 0.5696275071633238  	diff:  中心AB0.2848137535816619 核心AB0.21604584527220627 主干A0.05730659025787966 骨干A0.008595988538681949 为重A0.0028653295128939827
+  	class: 频率  	d: 2  	pt: 0.5555555555555556  	diff:  效率AB0.2777777777777778 频率A0.2777777777777778
+  	class: 胜于  	d: 13  	pt: 0.46212121212121215  	diff:  高AB0.23106060606060608 强A0.22348484848484848 胜过A0.007575757575757576
+  	class: 水平  	d: 5  	pt: 0.42763157894736836  	diff:  水平AB0.2006578947368421 程度AB0.21381578947368418 水准A0.013157894736842105
+  	class: 遭受  	d: 20  	pt: 0.39252336448598135  	diff:  面临AB0.19626168224299068 备受A0.06542056074766354 遭遇A0.037383177570093455 饱受A0.028037383177570093 中A0.018691588785046728 遭受A0.037383177570093455 遭A0.009345794392523364
+  	class: 陪伴  	d: 7  	pt: 0.375  	diff:  伴随AB0.1875 伴A0.1875
+  	class: 充满  	d: 14  	pt: 0.34782608695652173  	diff:  充满AB0.17391304347826086 满载A0.043478260869565216 充斥A0.043478260869565216 载A0.043478260869565216 括A0.043478260869565216
+  	class: 世界  	d: 18  	pt: 0.3448275862068966  	diff:  全球AB0.1724137931034483 全世界A0.13793103448275862 大地A0.013793103448275862 环球A0.013793103448275862 世A0.006896551724137931
+  	class: 医治  	d: 10  	pt: 0.3386243386243386  	diff:  医疗AB0.1693121693121693 治疗A0.12169312169312169 诊疗A0.037037037037037035 医A0.010582010582010581
+  	class: 加快  	d: 7  	pt: 0.29107981220657275  	diff:  加速AB0.14553990610328638 加快A0.13145539906103287 增速A0.014084507042253521
+  	class: 探究  	d: 8  	pt: 0.2838283828382839  	diff:  探索AB0.14191419141914197 探讨A0.13861386138613863 深究A0.0033003300330033004
+  	class: 支付  	d: 6  	pt: 0.2623655913978495  	diff:  开销A0.09247311827956989 开发AB0.13118279569892477 支付A0.03655913978494624 支A0.002150537634408602
+  	class: 范围  	d: 6  	pt: 0.20370370370370375  	diff:  规模AB0.08333333333333337 层面AB0.10185185185185186 局面A0.013888888888888888 框框A0.004629629629629629
+  	class: 结构  	d: 2  	pt: 0.1839530332681018  	diff:  结构AB0.09197651663405093 构造A0.09197651663405088
+  	class: 撑持  	d: 5  	pt: 0.1727748691099476  	diff:  支持AB0.08638743455497377 支撑A0.08638743455497382
+  	class: 少  	d: 23  	pt: 0.16901408450704228  	diff:  有限AB0.08450704225352113 少于A0.07042253521126761 一定量A0.014084507042253521
+  	class: 制订  	d: 3  	pt: 0.1538461538461538  	diff:  制定AB0.07692307692307687 制订A0.07692307692307693
+  	class: 技术  	d: 8  	pt: 0.14022578728461085  	diff:  技能A0.035650623885918005 技巧A0.0314913844325609 技术AB0.07011289364230544 技A0.0023767082590612004 术A0.0005941770647653001
+  	class: 韬略  	d: 3  	pt: 0.1363636363636364  	diff:  战略AB0.06818181818181823 战略性A0.06818181818181818
+  	class: 导致  	d: 9  	pt: 0.13215859030837002  	diff:  导致AB0.06607929515418498 招致A0.004405286343612335 促成A0.022026431718061675 招A0.030837004405286344 致使A0.00881057268722467
+  	class: 章程  	d: 6  	pt: 0.125  	diff:  例AB0.0625 条例A0.0625
+  	class: 异常  	d: 21  	pt: 0.11111111111111113  	diff:  独特AB0.05555555555555558 出奇A0.027777777777777776 特异A0.027777777777777776
+  	class: 前途  	d: 5  	pt: 0.10714285714285718  	diff:  前景AB0.0535714285714286 前途A0.05357142857142857
+  	class: 合算  	d: 8  	pt: 0.09756097560975614  	diff:  划算A0.04878048780487805 经济AB0.04878048780487809
+  	class: 等级  	d: 10  	pt: 0.0961538461538462  	diff:  阶段AB0.04807692307692313 阶A0.04807692307692308
+  	class: 相关  	d: 15  	pt: 0.0947368421052632  	diff:  相关AB0.047368421052631615 系A0.0456140350877193 相干A0.0017543859649122807
+  	class: 发生  	d: 8  	pt: 0.09090909090909087  	diff:  发生AB0.045454545454545414 发出A0.03896103896103896 时有发生A0.006493506493506494
+  	class: 大路  	d: 6  	pt: 0.0898876404494382  	diff:  通道AB0.0449438202247191 通路A0.0449438202247191
+  	class: 会议  	d: 3  	pt: 0.07894736842105264  	diff:  会议AB0.03947368421052633 集会A0.039473684210526314
+  	class: 演讲  	d: 4  	pt: 0.050000000000000024  	diff:  演讲AB0.025000000000000022 发言A0.025
+  	class: 灵巧  	d: 12  	pt: 0.047619047619047644  	diff:  灵活AB0.023809523809523836 灵A0.023809523809523808
+  	class: 登载  	d: 12  	pt: 0.03478260869565218  	diff:  发表AB0.017391304347826098 刊A0.008695652173913044 刊登A0.008695652173913044
+  	class: 方面  	d: 4  	pt: 0.030769230769230715  	diff:  地方AB0.01538461538461533 上头A0.015384615384615385
+  	class: 道路  	d: 9  	pt: 0.028169014084507026  	diff:  道路AB0.014084507042253502 征程A0.014084507042253521
+  	class: 畅通  	d: 15  	pt: 0.0210526315789474  	diff:  交通AB0.010526315789473717 无阻A0.010526315789473684
+  	class: 商业  	d: 7  	pt: 0.020833333333333294  	diff:  商业AB0.01041666666666663 买卖A0.010416666666666666
+  	class: 基础  	d: 9  	pt: 0.02020202020202016  	diff:  基础AB0.010101010101010055 根基A0.005050505050505051 功底A0.005050505050505051
+  	class: 质量  	d: 3  	pt: 0.018348623853210955  	diff:  质量AB0.00917431192660545 色A0.009174311926605505
+  	class: 宝藏  	d: 6  	pt: 0.012499999999999978  	diff:  资源AB0.006249999999999978 金矿A0.00625
+  	class: 原因  	d: 12  	pt: 0.011428571428571385  	diff:  原因AB0.005714285714285672 缘故A0.005714285714285714
+  	class: 提供  	d: 2  	pt: 0.010349288486416516  	diff:  提供AB0.005174644243208237 资A0.00517464424320828
+  	class: 产品  	d: 5  	pt: 0.004115226337448606  	diff:  产品AB0.002057613168724326 成品A0.00205761316872428
+  	class: 新  	d: 9  	pt: 0.002192982456140382  	diff:  新AB0.0010964912280702066 独创性A0.0010964912280701754
+  	class: 知识分子  	d: 21  	pt: 0  	diff: 
+  	class: 人  	d: 4  	pt: 0  	diff: 
+  	class: 人类  	d: 2  	pt: 0  	diff: 
+  	class: 外人  	d: 10  	pt: 0  	diff: 
+  	class: 人手  	d: 3  	pt: 0  	diff: 
+  	class: 庸人  	d: 12  	pt: 0  	diff: 
+  	class: 私  	d: 8  	pt: 0  	diff: 
+  	class: 武器  	d: 15  	pt: 0  	diff: 
+  	class: 事物  	d: 3  	pt: 0  	diff: 
+  	class: 货物  	d: 4  	pt: 0  	diff: 
+  	class: 家伙  	d: 5  	pt: 0  	diff: 
+  	class: 子畜  	d: 6  	pt: 0  	diff: 
+  	class: 子  	d: 3  	pt: 0  	diff: 
+  	class: 混血儿  	d: 3  	pt: 0  	diff: 
+  	class: 牲畜  	d: 6  	pt: 0  	diff: 
+  	class: 浑蛋  	d: 3  	pt: 0  	diff: 
+  	class: 童仆  	d: 7  	pt: 0  	diff: 
+  	class: 小人  	d: 4  	pt: 0  	diff: 
+  	class: 哟  	d: 1  	pt: 0  	diff: 
+  	class: 亲手  	d: 2  	pt: 0  	diff: 
+  	class: 工匠  	d: 7  	pt: 0  	diff: 
+  	class: 异  	d: 3  	pt: 0  	diff: 
+  	class: 预示  	d: 5  	pt: 0  	diff: 
+  	class: 分  	d: 11  	pt: 0  	diff: 
+  	class: 敝  	d: 4  	pt: 0  	diff: 
+  	class: 那个  	d: 4  	pt: 0  	diff: 
+  	class: 公公  	d: 7  	pt: 0  	diff: 
+  	class: 男人  	d: 9  	pt: 0  	diff: 
+  	class: 各  	d: 6  	pt: 0  	diff: 
+  	class: 成员  	d: 4  	pt: 0  	diff: 
+  	class: 坏  	d: 17  	pt: 0  	diff: 
+  	class: 卖  	d: 11  	pt: 0  	diff: 
+  	class: 棒  	d: 8  	pt: 0  	diff: 
+  	class: 只  	d: 14  	pt: 0  	diff: 
+  	class: 每人  	d: 3  	pt: 0  	diff: 
+  	class: 该人  	d: 2  	pt: 0  	diff: 
+  	class: 人民  	d: 19  	pt: 0  	diff: 
+  	class: 庶几  	d: 3  	pt: 0  	diff: 
+  	class: 小人物  	d: 7  	pt: 0  	diff: 
+  	class: 婴儿  	d: 10  	pt: 0  	diff: 
+  	class: 萌生  	d: 4  	pt: 0  	diff: 
+  	class: 群众  	d: 6  	pt: 0  	diff: 
+  	class: 动物  	d: 4  	pt: 0  	diff: 
+  	class: 众人  	d: 3  	pt: 0  	diff: 
+  	class: 人丛  	d: 4  	pt: 0  	diff: 
+  	class: 打胎  	d: 5  	pt: 0  	diff: 
+  	class: 望族  	d: 9  	pt: 0  	diff: 
+  	class: 大家  	d: 6  	pt: 0  	diff: 
+  	class: 们  	d: 2  	pt: 0  	diff: 
+  	class: 辈分  	d: 5  	pt: 0  	diff: 
+  	class: 自己  	d: 10  	pt: 0  	diff: 
+  	class: 我们  	d: 6  	pt: 0  	diff: 
+  	class: 我  	d: 5  	pt: 0  	diff: 
+  	class: 多余  	d: 10  	pt: 0  	diff: 
+  	class: 身  	d: 2  	pt: 0  	diff: 
+  	class: 住户  	d: 8  	pt: 0  	diff: 
+  	class: 不足道  	d: 13  	pt: 0  	diff: 
+  	class: 仆  	d: 3  	pt: 0  	diff: 
+  	class: 戏弄  	d: 10  	pt: 0  	diff: 
+  	class: 区区  	d: 3  	pt: 0  	diff: 
+  	class: 下流  	d: 17  	pt: 0  	diff: 
+  	class: 年老  	d: 24  	pt: 0  	diff: 
+  	class: 小弟  	d: 1  	pt: 0  	diff: 
+  	class: 兄弟  	d: 9  	pt: 0  	diff: 
+  	class: 奴  	d: 3  	pt: 0  	diff: 
+  	class: 妾  	d: 9  	pt: 0  	diff: 
+  	class: 预兆  	d: 5  	pt: 0  	diff: 
+  	class: 孤单  	d: 33  	pt: 0  	diff: 
+  	class: 朕  	d: 1  	pt: 0  	diff: 
+  	class: 职位  	d: 6  	pt: 0  	diff: 
+  	class: 职  	d: 2  	pt: 0  	diff: 
+  	class: 仆人  	d: 12  	pt: 0  	diff: 
+  	class: 走狗  	d: 12  	pt: 0  	diff: 
+  	class: 贫道  	d: 2  	pt: 0  	diff: 
+  	class: 吾辈  	d: 2  	pt: 0  	diff: 
+  	class: 你  	d: 5  	pt: 0  	diff: 
+  	class: 那样  	d: 6  	pt: 0  	diff: 
+  	class: 如果  	d: 31  	pt: 0  	diff: 
+  	class: 于是  	d: 4  	pt: 0  	diff: 
+  	class: 皇帝  	d: 26  	pt: 0  	diff: 
+  	class: 公正  	d: 17  	pt: 0  	diff: 
+  	class: 老兄  	d: 3  	pt: 0  	diff: 
+  	class: 兄  	d: 8  	pt: 0  	diff: 
+  	class: 长兄  	d: 2  	pt: 0  	diff: 
+  	class: 老弟  	d: 3  	pt: 0  	diff: 
+  	class: 嫂子  	d: 5  	pt: 0  	diff: 
+  	class: 大嫂  	d: 2  	pt: 0  	diff: 
+  	class: 阁下  	d: 4  	pt: 0  	diff: 
+  	class: 驾驶  	d: 3  	pt: 0  	diff: 
+  	class: 能手  	d: 18  	pt: 0  	diff: 
+  	class: 陛下  	d: 1  	pt: 0  	diff: 
+  	class: 您老  	d: 2  	pt: 0  	diff: 
+  	class: 你们  	d: 2  	pt: 0  	diff: 
+  	class: 诸位  	d: 3  	pt: 0  	diff: 
+  	class: 它  	d: 3  	pt: 0  	diff: 
+  	class: 沟渠  	d: 9  	pt: 0  	diff: 
+  	class: 他  	d: 1  	pt: 0  	diff: 
+  	class: 他们  	d: 4  	pt: 0  	diff: 
+  	class: 和睦  	d: 12  	pt: 0  	diff: 
+  	class: 从  	d: 8  	pt: 0  	diff: 
+  	class: 别人  	d: 3  	pt: 0  	diff: 
+  	class: 谁  	d: 9  	pt: 0  	diff: 
+  	class: 某人  	d: 1  	pt: 0  	diff: 
+  	class: 某个  	d: 5  	pt: 0  	diff: 
+  	class: 夫  	d: 6  	pt: 0  	diff: 
+  	class: 郎  	d: 6  	pt: 0  	diff: 
+  	class: 爷儿  	d: 2  	pt: 0  	diff: 
+  	class: 老伴  	d: 3  	pt: 0  	diff: 
+  	class: 先生  	d: 1  	pt: 0  	diff: 
+  	class: 妻  	d: 19  	pt: 0  	diff: 
+  	class: 女人  	d: 11  	pt: 0  	diff: 
+  	class: 女  	d: 11  	pt: 0  	diff: 
+  	class: 母  	d: 10  	pt: 0  	diff: 
+  	class: 媳妇  	d: 9  	pt: 0  	diff: 
+  	class: 妇道  	d: 2  	pt: 0  	diff: 
+  	class: 女流  	d: 4  	pt: 0  	diff: 
+  	class: 少妇  	d: 2  	pt: 0  	diff: 
+  	class: 女兵  	d: 2  	pt: 0  	diff: 
+  	class: 人才  	d: 13  	pt: 0  	diff: 
+  	class: 姑娘  	d: 9  	pt: 0  	diff: 
+  	class: 令爱  	d: 3  	pt: 0  	diff: 
+  	class: 尼姑  	d: 5  	pt: 0  	diff: 
+  	class: 仕女  	d: 4  	pt: 0  	diff: 
+  	class: 祖母  	d: 4  	pt: 0  	diff: 
+  	class: 贱人  	d: 1  	pt: 0  	diff: 
+  	class: 奸邪  	d: 9  	pt: 0  	diff: 
+  	class: 村姑  	d: 2  	pt: 0  	diff: 
+  	class: 子女  	d: 7  	pt: 0  	diff: 
+  	class: 男女  	d: 4  	pt: 0  	diff: 
+  	class: 长辈  	d: 6  	pt: 0  	diff: 
+  	class: 一直  	d: 6  	pt: 0  	diff: 
+  	class: 元老  	d: 5  	pt: 0  	diff: 
+  	class: 父  	d: 15  	pt: 0  	diff: 
+  	class: 老朽  	d: 1  	pt: 0  	diff: 
+  	class: 枯木朽株  	d: 2  	pt: 0  	diff: 
+  	class: 饭桶  	d: 8  	pt: 0  	diff: 
+  	class: 老寿星  	d: 1  	pt: 0  	diff: 
+  	class: 老人星  	d: 2  	pt: 0  	diff: 
+  	class: 祖父  	d: 6  	pt: 0  	diff: 
+  	class: 曾祖  	d: 4  	pt: 0  	diff: 
+  	class: 令尊  	d: 3  	pt: 0  	diff: 
+  	class: 父母  	d: 15  	pt: 0  	diff: 
+  	class: 岳父  	d: 5  	pt: 0  	diff: 
+  	class: 丈量  	d: 3  	pt: 0  	diff: 
+  	class: 曾祖母  	d: 2  	pt: 0  	diff: 
+  	class: 老奶奶  	d: 6  	pt: 0  	diff: 
+  	class: 令堂  	d: 3  	pt: 0  	diff: 
+  	class: 婆婆  	d: 5  	pt: 0  	diff: 
+  	class: 老太太  	d: 3  	pt: 0  	diff: 
+  	class: 外祖母  	d: 3  	pt: 0  	diff: 
+  	class: 奶妈  	d: 5  	pt: 0  	diff: 
+  	class: 老家伙  	d: 2  	pt: 0  	diff: 
+  	class: 成年人  	d: 5  	pt: 0  	diff: 
+  	class: 老小  	d: 4  	pt: 0  	diff: 
+  	class: 分寸  	d: 3  	pt: 0  	diff: 
+  	class: 青年人  	d: 8  	pt: 0  	diff: 
+  	class: 青年  	d: 5  	pt: 0  	diff: 
+  	class: 年轻  	d: 14  	pt: 0  	diff: 
+  	class: 门生  	d: 4  	pt: 0  	diff: 
+  	class: 晚辈  	d: 3  	pt: 0  	diff: 
+  	class: 知识青年  	d: 2  	pt: 0  	diff: 
+  	class: 少年人  	d: 4  	pt: 0  	diff: 
+  	class: 少年  	d: 2  	pt: 0  	diff: 
+  	class: 萌芽  	d: 7  	pt: 0  	diff: 
+  	class: 芝兰  	d: 1  	pt: 0  	diff: 
+  	class: 新秀  	d: 4  	pt: 0  	diff: 
+  	class: 骏马  	d: 9  	pt: 0  	diff: 
+  	class: 童年  	d: 13  	pt: 0  	diff: 
+  	class: 宝宝  	d: 6  	pt: 0  	diff: 
+  	class: 宝贝  	d: 6  	pt: 0  	diff: 
+  	class: 活宝  	d: 2  	pt: 0  	diff: 
+  	class: 儿童  	d: 31  	pt: 0  	diff: 
+  	class: 幼小  	d: 12  	pt: 0  	diff: 
+  	class: 光秃秃  	d: 3  	pt: 0  	diff: 
+  	class: 稍微  	d: 24  	pt: 0  	diff: 
+  	class: 小  	d: 12  	pt: 0  	diff: 
+  	class: 妞  	d: 7  	pt: 0  	diff: 
+  	class: 婢女  	d: 7  	pt: 0  	diff: 
+  	class: 顽童  	d: 6  	pt: 0  	diff: 
+  	class: 男童  	d: 3  	pt: 0  	diff: 
+  	class: 高个儿  	d: 7  	pt: 0  	diff: 
+  	class: 修长  	d: 6  	pt: 0  	diff: 
+  	class: 细高挑儿  	d: 1  	pt: 0  	diff: 
+  	class: 矮子  	d: 6  	pt: 0  	diff: 
+  	class: 胖子  	d: 4  	pt: 0  	diff: 
+  	class: 瘦子  	d: 1  	pt: 0  	diff: 
+  	class: 瘦  	d: 14  	pt: 0  	diff: 
+  	class: 美女  	d: 20  	pt: 0  	diff: 
+  	class: 花费  	d: 5  	pt: 0  	diff: 
+  	class: 神  	d: 9  	pt: 0  	diff: 
+  	class: 仙女  	d: 3  	pt: 0  	diff: 
+  	class: 月亮  	d: 8  	pt: 0  	diff: 
+  	class: 美貌  	d: 46  	pt: 0.0  	diff: 
+  	class: 丑八怪  	d: 1  	pt: 0  	diff: 
+  	class: 凶人  	d: 2  	pt: 0  	diff: 
+  	class: 麻子  	d: 2  	pt: 0  	diff: 
+  	class: 秃子  	d: 3  	pt: 0  	diff: 
+  	class: 兔唇  	d: 4  	pt: 0  	diff: 
+  	class: 缺口  	d: 5  	pt: 0  	diff: 
+  	class: 口吃  	d: 5  	pt: 0  	diff: 
+  	class: 结  	d: 4  	pt: 0  	diff: 
+  	class: 结巴  	d: 2  	pt: 0  	diff: 
+  	class: 居民  	d: 4  	pt: 0.0  	diff: 
+  	class: 市民  	d: 4  	pt: 0  	diff: 
+  	class: 乡民  	d: 3  	pt: 0  	diff: 
+  	class: 船民  	d: 2  	pt: 0  	diff: 
+  	class: 侨民  	d: 5  	pt: 0  	diff: 
+  	class: 中国人  	d: 4  	pt: 0  	diff: 
+  	class: 本国人  	d: 2  	pt: 0  	diff: 
+  	class: 胞  	d: 7  	pt: 0  	diff: 
+  	class: 外国人  	d: 3  	pt: 0  	diff: 
+  	class: 外族  	d: 3  	pt: 0  	diff: 
+  	class: 洋鬼子  	d: 3  	pt: 0  	diff: 
+  	class: 外族人  	d: 1  	pt: 0  	diff: 
+  	class: 本地人  	d: 5  	pt: 0  	diff: 
+  	class: 村里人  	d: 2  	pt: 0  	diff: 
+  	class: 外乡人  	d: 6  	pt: 0  	diff: 
+  	class: 同乡  	d: 6  	pt: 0  	diff: 
+  	class: 农民  	d: 11  	pt: 0  	diff: 
+  	class: 家乡  	d: 18  	pt: 0  	diff: 
+  	class: 职工  	d: 2  	pt: 0  	diff: 
+  	class: 职员  	d: 6  	pt: 0  	diff: 
+  	class: 公务员  	d: 3  	pt: 0  	diff: 
+  	class: 秘书  	d: 3  	pt: 0  	diff: 
+  	class: 文件  	d: 6  	pt: 0  	diff: 
+  	class: 总务  	d: 3  	pt: 0  	diff: 
+  	class: 管理  	d: 4  	pt: 0  	diff: 
+  	class: 会计  	d: 6  	pt: 0  	diff: 
+  	class: 会计室  	d: 3  	pt: 0  	diff: 
+  	class: 掮客  	d: 1  	pt: 0  	diff: 
+  	class: 商人  	d: 9  	pt: 0  	diff: 
+  	class: 从业员  	d: 4  	pt: 0  	diff: 
+  	class: 伙计  	d: 4  	pt: 0  	diff: 
+  	class: 列车员  	d: 3  	pt: 0  	diff: 
+  	class: 广播员  	d: 2  	pt: 0  	diff: 
+  	class: 理发员  	d: 5  	pt: 0  	diff: 
+  	class: 空姐  	d: 2  	pt: 0  	diff: 
+  	class: 消防人  	d: 2  	pt: 0  	diff: 
+  	class: 承运人  	d: 2  	pt: 0  	diff: 
+  	class: 供给者  	d: 2  	pt: 0  	diff: 
+  	class: 编选者  	d: 3  	pt: 0  	diff: 
+  	class: 勘察者  	d: 3  	pt: 0  	diff: 
+  	class: 工人  	d: 2  	pt: 0  	diff: 
+  	class: 善于  	d: 10  	pt: 0  	diff: 
+  	class: 勤杂工  	d: 4  	pt: 0  	diff: 
+  	class: 演员  	d: 9  	pt: 0  	diff: 
+  	class: 老师傅  	d: 1  	pt: 0  	diff: 
+  	class: 师傅  	d: 1  	pt: 0  	diff: 
+  	class: 壮工  	d: 2  	pt: 0  	diff: 
+  	class: 短工  	d: 3  	pt: 0  	diff: 
+  	class: 劳役  	d: 8  	pt: 0  	diff: 
+  	class: 搬运工  	d: 6  	pt: 0  	diff: 
+  	class: 苦工  	d: 2  	pt: 0  	diff: 
+  	class: 雇用  	d: 7  	pt: 0  	diff: 
+  	class: 学徒工  	d: 2  	pt: 0  	diff: 
+  	class: 木工  	d: 2  	pt: 0  	diff: 
+  	class: 瓦工  	d: 5  	pt: 0  	diff: 
+  	class: 石工  	d: 2  	pt: 0  	diff: 
+  	class: 油漆工  	d: 5  	pt: 0  	diff: 
+  	class: 花匠  	d: 3  	pt: 0  	diff: 
+  	class: 教师  	d: 16  	pt: 0  	diff: 
+  	class: 画匠  	d: 2  	pt: 0  	diff: 
+  	class: 画家  	d: 2  	pt: 0  	diff: 
+  	class: 成衣匠  	d: 2  	pt: 0  	diff: 
+  	class: 鞋匠  	d: 2  	pt: 0  	diff: 
+  	class: 铁工  	d: 2  	pt: 0  	diff: 
+  	class: 海员  	d: 5  	pt: 0  	diff: 
+  	class: 领航员  	d: 4  	pt: 0  	diff: 
+  	class: 引航  	d: 4  	pt: 0  	diff: 
+  	class: 船夫  	d: 7  	pt: 0  	diff: 
+  	class: 非常  	d: 47  	pt: 0  	diff: 
+  	class: 长寿  	d: 12  	pt: 0  	diff: 
+  	class: 水利工程  	d: 4  	pt: 0  	diff: 
+  	class: 舵手  	d: 4  	pt: 0  	diff: 
+  	class: 驾驶员  	d: 7  	pt: 0  	diff: 
+  	class: 飞行员  	d: 4  	pt: 0  	diff: 
+  	class: 宇航员  	d: 2  	pt: 0  	diff: 
+  	class: 驭手  	d: 6  	pt: 0  	diff: 
+  	class: 操作员  	d: 2  	pt: 0  	diff: 
+  	class: 脚钱  	d: 2  	pt: 0  	diff: 
+  	class: 炊事员  	d: 7  	pt: 0  	diff: 
+  	class: 禅师  	d: 6  	pt: 0  	diff: 
+  	class: 火夫  	d: 4  	pt: 0  	diff: 
+  	class: 烧火  	d: 7  	pt: 0  	diff: 
+  	class: 邮递员  	d: 5  	pt: 0  	diff: 
+  	class: 鹦鹉  	d: 3  	pt: 0  	diff: 
+  	class: 通信员  	d: 2  	pt: 0  	diff: 
+  	class: 交通员  	d: 2  	pt: 0  	diff: 
+  	class: 联络员  	d: 3  	pt: 0  	diff: 
+  	class: 门房  	d: 9  	pt: 0  	diff: 
+  	class: 转告  	d: 6  	pt: 0  	diff: 
+  	class: 服务员  	d: 5  	pt: 0  	diff: 
+  	class: 侍从  	d: 3  	pt: 0  	diff: 
+  	class: 堂倌  	d: 3  	pt: 0  	diff: 
+  	class: 酒店  	d: 9  	pt: 0  	diff: 
+  	class: 商店  	d: 24  	pt: 0  	diff: 
+  	class: 清洁工  	d: 3  	pt: 0  	diff: 
+  	class: 农户  	d: 4  	pt: 0  	diff: 
+  	class: 小农  	d: 2  	pt: 0  	diff: 
+  	class: 佃农  	d: 2  	pt: 0  	diff: 
+  	class: 上中农  	d: 2  	pt: 0  	diff: 
+  	class: 牧民  	d: 6  	pt: 0  	diff: 
+  	class: 渔民  	d: 6  	pt: 0  	diff: 
+  	class: 猎手  	d: 4  	pt: 0  	diff: 
+  	class: 樵夫  	d: 4  	pt: 0  	diff: 
+  	class: 饲养员  	d: 3  	pt: 0  	diff: 
+  	class: 羊倌  	d: 3  	pt: 0  	diff: 
+  	class: 放牛郎  	d: 5  	pt: 0  	diff: 
+  	class: 马夫  	d: 2  	pt: 0  	diff: 
+  	class: 刽子手  	d: 2  	pt: 0  	diff: 
+  	class: 屠夫  	d: 1  	pt: 0  	diff: 
+  	class: 经商  	d: 3  	pt: 0  	diff: 
+  	class: 协商  	d: 25  	pt: 0  	diff: 
+  	class: 市侩  	d: 3  	pt: 0  	diff: 
+  	class: 商旅  	d: 5  	pt: 0  	diff: 
+  	class: 小贩  	d: 6  	pt: 0  	diff: 
+  	class: 客帮  	d: 2  	pt: 0  	diff: 
+  	class: 嫖客  	d: 3  	pt: 0  	diff: 
+  	class: 卖家  	d: 4  	pt: 0  	diff: 
+  	class: 军官  	d: 3  	pt: 0  	diff: 
+  	class: 官吏  	d: 14  	pt: 0  	diff: 
+  	class: 指挥员  	d: 2  	pt: 0  	diff: 
+  	class: 总司令  	d: 13  	pt: 0  	diff: 
+  	class: 好  	d: 49  	pt: 0  	diff: 
+  	class: 下级  	d: 10  	pt: 0  	diff: 
+  	class: 将领  	d: 8  	pt: 0  	diff: 
+  	class: 将  	d: 1  	pt: 0  	diff: 
+  	class: 以  	d: 2  	pt: 0  	diff: 
+  	class: 副将  	d: 3  	pt: 0  	diff: 
+  	class: 虎将  	d: 7  	pt: 0  	diff: 
+  	class: 勇士  	d: 8  	pt: 0  	diff: 
+  	class: 士兵  	d: 19  	pt: 0  	diff: 
+  	class: 警察  	d: 9  	pt: 0  	diff: 
+  	class: 将士  	d: 4  	pt: 0  	diff: 
+  	class: 军人  	d: 3  	pt: 0  	diff: 
+  	class: 荣誉军人  	d: 2  	pt: 0  	diff: 
+  	class: 边防军  	d: 2  	pt: 0  	diff: 
+  	class: 终于  	d: 11  	pt: 0  	diff: 
+  	class: 识途老马  	d: 4  	pt: 0  	diff: 
+  	class: 士  	d: 1  	pt: 0  	diff: 
+  	class: 步兵  	d: 2  	pt: 0  	diff: 
+  	class: 骑兵  	d: 4  	pt: 0  	diff: 
+  	class: 水兵  	d: 1  	pt: 0  	diff: 
+  	class: 海军  	d: 3  	pt: 0  	diff: 
+  	class: 侦察兵  	d: 3  	pt: 0  	diff: 
+  	class: 情报员  	d: 14  	pt: 0  	diff: 
+  	class: 便装  	d: 3  	pt: 0  	diff: 
+  	class: 哨兵  	d: 3  	pt: 0  	diff: 
+  	class: 哨所  	d: 3  	pt: 0  	diff: 
+  	class: 航空兵  	d: 2  	pt: 0  	diff: 
+  	class: 伞兵  	d: 2  	pt: 0  	diff: 
+  	class: 工兵  	d: 2  	pt: 0  	diff: 
+  	class: 号兵  	d: 2  	pt: 0  	diff: 
+  	class: 警卫员  	d: 5  	pt: 0  	diff: 
+  	class: 警卫  	d: 2  	pt: 0  	diff: 
+  	class: 保护  	d: 7  	pt: 0  	diff: 
+  	class: 退伍兵  	d: 2  	pt: 0  	diff: 
+  	class: 复员军人  	d: 2  	pt: 0  	diff: 
+  	class: 老兵  	d: 3  	pt: 0  	diff: 
+  	class: 解放军  	d: 4  	pt: 0  	diff: 
+  	class: 兵圣  	d: 2  	pt: 0  	diff: 
+  	class: 官军  	d: 2  	pt: 0  	diff: 
+  	class: 见识  	d: 10  	pt: 0  	diff: 
+  	class: 敌特  	d: 3  	pt: 0  	diff: 
+  	class: 译电员  	d: 2  	pt: 0  	diff: 
+  	class: 急事  	d: 3  	pt: 0  	diff: 
+  	class: 人民警察  	d: 3  	pt: 0  	diff: 
+  	class: 捕头  	d: 3  	pt: 0  	diff: 
+  	class: 侦查  	d: 11  	pt: 0  	diff: 
+  	class: 侦探  	d: 4  	pt: 0  	diff: 
+  	class: 防守  	d: 12  	pt: 0  	diff: 
+  	class: 看守  	d: 3  	pt: 0  	diff: 
+  	class: 行刑队  	d: 2  	pt: 0  	diff: 
+  	class: 审判员  	d: 11  	pt: 0  	diff: 
+  	class: 检察官  	d: 3  	pt: 0  	diff: 
+  	class: 律师  	d: 5  	pt: 0  	diff: 
+  	class: 征稽  	d: 4  	pt: 0  	diff: 
+  	class: 师  	d: 2  	pt: 0  	diff: 
+  	class: 教官  	d: 4  	pt: 0  	diff: 
+  	class: 训练  	d: 3  	pt: 0  	diff: 
+  	class: 教养员  	d: 2  	pt: 0  	diff: 
+  	class: 姨母  	d: 6  	pt: 0  	diff: 
+  	class: 塾师  	d: 2  	pt: 0  	diff: 
+  	class: 书呆子  	d: 4  	pt: 0  	diff: 
+  	class: 学生  	d: 4  	pt: 0  	diff: 
+  	class: 学习者  	d: 2  	pt: 0  	diff: 
+  	class: 门客  	d: 6  	pt: 0  	diff: 
+  	class: 从师  	d: 5  	pt: 0  	diff: 
+  	class: 徒弟  	d: 5  	pt: 0  	diff: 
+  	class: 高足  	d: 3  	pt: 0  	diff: 
+  	class: 高才生  	d: 3  	pt: 0  	diff: 
+  	class: 寄宿生  	d: 3  	pt: 0  	diff: 
+  	class: 定向招生  	d: 3  	pt: 0  	diff: 
+  	class: 运动员  	d: 3  	pt: 0  	diff: 
+  	class: 裁判员  	d: 2  	pt: 0  	diff: 
+  	class: 判决  	d: 7  	pt: 0  	diff: 
+  	class: 医生  	d: 6  	pt: 0  	diff: 
+  	class: 中医  	d: 2  	pt: 0  	diff: 
+  	class: 国医  	d: 1  	pt: 0  	diff: 
+  	class: 良医  	d: 3  	pt: 0  	diff: 
+  	class: 太医  	d: 2  	pt: 0  	diff: 
+  	class: 助产士  	d: 4  	pt: 0  	diff: 
+  	class: 家母  	d: 3  	pt: 0  	diff: 
+  	class: 护士  	d: 3  	pt: 0  	diff: 
+  	class: 护理  	d: 5  	pt: 0  	diff: 
+  	class: 作者  	d: 6  	pt: 0  	diff: 
+  	class: 执笔人  	d: 2  	pt: 0  	diff: 
+  	class: 译者  	d: 2  	pt: 0  	diff: 
+  	class: 翻译  	d: 5  	pt: 0  	diff: 
+  	class: 记者  	d: 2  	pt: 0  	diff: 
+  	class: 新闻工作者  	d: 2  	pt: 0  	diff: 
+  	class: 媒体  	d: 2  	pt: 0  	diff: 
+  	class: 编辑  	d: 18  	pt: 0  	diff: 
+  	class: 总编辑  	d: 2  	pt: 0  	diff: 
+  	class: 创意者  	d: 2  	pt: 0  	diff: 
+  	class: 明星  	d: 5  	pt: 0  	diff: 
+  	class: 星辰  	d: 8  	pt: 0  	diff: 
+  	class: 女演员  	d: 3  	pt: 0  	diff: 
+  	class: 歌手  	d: 8  	pt: 0  	diff: 
+  	class: 冷箭  	d: 6  	pt: 0  	diff: 
+  	class: 骨干  	d: 11  	pt: 0  	diff: 
+  	class: 主角  	d: 2  	pt: 0  	diff: 
+  	class: 配角  	d: 4  	pt: 0  	diff: 
+  	class: 名角  	d: 4  	pt: 0  	diff: 
+  	class: 生角  	d: 1  	pt: 0  	diff: 
+  	class: 老生  	d: 2  	pt: 0  	diff: 
+  	class: 末尾  	d: 11  	pt: 0  	diff: 
+  	class: 旦角儿  	d: 6  	pt: 0  	diff: 
+  	class: 年初一  	d: 5  	pt: 0  	diff: 
+  	class: 彩旦  	d: 2  	pt: 0  	diff: 
+  	class: 丑角  	d: 4  	pt: 0  	diff: 
+  	class: 可憎  	d: 12  	pt: 0  	diff: 
+  	class: 花脸  	d: 3  	pt: 0  	diff: 
+  	class: 都  	d: 16  	pt: 0  	diff: 
+  	class: 大花脸  	d: 4  	pt: 0  	diff: 
+  	class: 二花脸  	d: 2  	pt: 0  	diff: 
+  	class: 演职员  	d: 2  	pt: 0  	diff: 
+  	class: 表演家  	d: 2  	pt: 0  	diff: 
+  	class: 舞者  	d: 2  	pt: 0  	diff: 
+  	class: 知名演员  	d: 2  	pt: 0  	diff: 
+  	class: 琴师  	d: 3  	pt: 0  	diff: 
+  	class: 鼓师  	d: 2  	pt: 0  	diff: 
+  	class: 号手  	d: 3  	pt: 0  	diff: 
+  	class: 演奏者  	d: 2  	pt: 0  	diff: 
+  	class: 剧团人员  	d: 2  	pt: 0  	diff: 
+  	class: 编剧  	d: 2  	pt: 0  	diff: 
+  	class: 文艺工作者  	d: 2  	pt: 0  	diff: 
+  	class: 模特  	d: 2  	pt: 0  	diff: 
+  	class: 阴阳家  	d: 2  	pt: 0  	diff: 
+  	class: 魔法师  	d: 2  	pt: 0  	diff: 
+  	class: 巫师  	d: 6  	pt: 0  	diff: 
+  	class: 女巫  	d: 3  	pt: 0  	diff: 
+  	class: 女神  	d: 3  	pt: 0  	diff: 
+  	class: 劳动者  	d: 3  	pt: 0  	diff: 
+  	class: 无产者  	d: 1  	pt: 0  	diff: 
+  	class: 无产阶级  	d: 2  	pt: 0  	diff: 
+  	class: 实施者  	d: 2  	pt: 0  	diff: 
+  	class: 奴隶  	d: 3  	pt: 0  	diff: 
+  	class: 善良  	d: 4  	pt: 0  	diff: 
+  	class: 小市民  	d: 2  	pt: 0  	diff: 
+  	class: 上访者  	d: 2  	pt: 0  	diff: 
+  	class: 接访  	d: 2  	pt: 0  	diff: 
+  	class: 投保人  	d: 2  	pt: 0  	diff: 
+  	class: 候选人  	d: 3  	pt: 0  	diff: 
+  	class: 选民  	d: 4  	pt: 0  	diff: 
+  	class: 跟随者  	d: 5  	pt: 0  	diff: 
+  	class: 反驳者  	d: 2  	pt: 0  	diff: 
+  	class: 抗议者  	d: 3  	pt: 0  	diff: 
+  	class: 差役  	d: 7  	pt: 0  	diff: 
+  	class: 词  	d: 9  	pt: 0  	diff: 
+  	class: 男仆  	d: 2  	pt: 0  	diff: 
+  	class: 女仆  	d: 8  	pt: 0  	diff: 
+  	class: 乳房  	d: 3  	pt: 0  	diff: 
+  	class: 奴才  	d: 2  	pt: 0  	diff: 
+  	class: 仆从  	d: 3  	pt: 0  	diff: 
+  	class: 随即  	d: 11  	pt: 0  	diff: 
+  	class: 跟随  	d: 7  	pt: 0  	diff: 
+  	class: 随从  	d: 2  	pt: 0  	diff: 
+  	class: 反正  	d: 5  	pt: 0  	diff: 
+  	class: 封建主  	d: 2  	pt: 0  	diff: 
+  	class: 主人  	d: 10  	pt: 0  	diff: 
+  	class: 地主  	d: 5  	pt: 0  	diff: 
+  	class: 外祖父  	d: 4  	pt: 0  	diff: 
+  	class: 东家  	d: 1  	pt: 0  	diff: 
+  	class: 农奴主  	d: 3  	pt: 0  	diff: 
+  	class: 士绅  	d: 5  	pt: 0  	diff: 
+  	class: 豪绅  	d: 5  	pt: 0  	diff: 
+  	class: 资本家  	d: 9  	pt: 0  	diff: 
+  	class: 老板  	d: 5  	pt: 0  	diff: 
+  	class: 富翁  	d: 19  	pt: 0  	diff: 
+  	class: 店主  	d: 4  	pt: 0  	diff: 
+  	class: 经营者  	d: 2  	pt: 0  	diff: 
+  	class: 出资人  	d: 2  	pt: 0  	diff: 
+  	class: 帝国主义  	d: 2  	pt: 0  	diff: 
+  	class: 达到  	d: 10  	pt: 0  	diff: 
+  	class: 现在  	d: 11  	pt: 0  	diff: 
+  	class: 天  	d: 16  	pt: 0  	diff: 
+  	class: 女皇  	d: 2  	pt: 0  	diff: 
+  	class: 暴君  	d: 2  	pt: 0  	diff: 
+  	class: 皇后  	d: 2  	pt: 0  	diff: 
+  	class: 圣母  	d: 2  	pt: 0  	diff: 
+  	class: 妃子  	d: 4  	pt: 0  	diff: 
+  	class: 权贵  	d: 2  	pt: 0  	diff: 
+  	class: 贵人  	d: 2  	pt: 0  	diff: 
+  	class: 皇族  	d: 3  	pt: 0  	diff: 
+  	class: 朝廷  	d: 7  	pt: 0  	diff: 
+  	class: 皇  	d: 3  	pt: 0  	diff: 
+  	class: 皇室  	d: 2  	pt: 0  	diff: 
+  	class: 太后  	d: 3  	pt: 0  	diff: 
+  	class: 太子  	d: 8  	pt: 0  	diff: 
+  	class: 王子  	d: 2  	pt: 0  	diff: 
+  	class: 公主  	d: 2  	pt: 0  	diff: 
+  	class: 王孙  	d: 3  	pt: 0  	diff: 
+  	class: 王公  	d: 6  	pt: 0  	diff: 
+  	class: 公爵  	d: 1  	pt: 0  	diff: 
+  	class: 贵族  	d: 2  	pt: 0  	diff: 
+  	class: 侯爵  	d: 3  	pt: 0  	diff: 
+  	class: 尊贵  	d: 10  	pt: 0  	diff: 
+  	class: 太监  	d: 3  	pt: 0  	diff: 
+  	class: 宫女  	d: 2  	pt: 0  	diff: 
+  	class: 女官  	d: 3  	pt: 0  	diff: 
+  	class: 公  	d: 9  	pt: 0  	diff: 
+  	class: 官府  	d: 9  	pt: 0  	diff: 
+  	class: 大臣  	d: 9  	pt: 0  	diff: 
+  	class: 统治  	d: 12  	pt: 0  	diff: 
+  	class: 锅  	d: 7  	pt: 0  	diff: 
+  	class: 芝麻官  	d: 3  	pt: 0  	diff: 
+  	class: 忠臣  	d: 2  	pt: 0  	diff: 
+  	class: 奸臣  	d: 2  	pt: 0  	diff: 
+  	class: 清官  	d: 3  	pt: 0  	diff: 
+  	class: 晴空  	d: 4  	pt: 0  	diff: 
+  	class: 赃官  	d: 4  	pt: 0  	diff: 
+  	class: 宰相  	d: 5  	pt: 0  	diff: 
+  	class: 男妓  	d: 2  	pt: 0  	diff: 
+  	class: 幕宾  	d: 3  	pt: 0  	diff: 
+  	class: 参谋  	d: 9  	pt: 0  	diff: 
+  	class: 使者  	d: 5  	pt: 0  	diff: 
+  	class: 重任  	d: 4  	pt: 0  	diff: 
+  	class: 使用  	d: 14  	pt: 0  	diff: 
+  	class: 领袖  	d: 7  	pt: 0  	diff: 
+  	class: 核心  	d: 12  	pt: 0  	diff: 
+  	class: 头领  	d: 15  	pt: 0  	diff: 
+  	class: 脑子  	d: 12  	pt: 0  	diff: 
+  	class: 人杰  	d: 6  	pt: 0  	diff: 
+  	class: 第一  	d: 18  	pt: 0  	diff: 
+  	class: 控制者  	d: 3  	pt: 0  	diff: 
+  	class: 主持  	d: 7  	pt: 0  	diff: 
+  	class: 统率  	d: 7  	pt: 0  	diff: 
+  	class: 领队  	d: 7  	pt: 0  	diff: 
+  	class: 监工  	d: 9  	pt: 0  	diff: 
+  	class: 创建者  	d: 8  	pt: 0  	diff: 
+  	class: 创业者  	d: 2  	pt: 0  	diff: 
+  	class: 策划人  	d: 3  	pt: 0  	diff: 
+  	class: 首倡者  	d: 3  	pt: 0  	diff: 
+  	class: 倡导者  	d: 4  	pt: 0  	diff: 
+  	class: 主办人  	d: 2  	pt: 0  	diff: 
+  	class: 经办人  	d: 2  	pt: 0  	diff: 
+  	class: 名人  	d: 15  	pt: 0  	diff: 
+  	class: 学者  	d: 4  	pt: 0  	diff: 
+  	class: 要人  	d: 5  	pt: 0  	diff: 
+  	class: 隐士  	d: 4  	pt: 0  	diff: 
+  	class: 烟鬼  	d: 4  	pt: 0  	diff: 
+  	class: 健康人  	d: 4  	pt: 0  	diff: 
+  	class: 老好人  	d: 5  	pt: 0  	diff: 
+  	class: 病人  	d: 10  	pt: 0  	diff: 
+  	class: 植物人  	d: 2  	pt: 0  	diff: 
+  	class: 疯子  	d: 3  	pt: 0  	diff: 
+  	class: 傻子  	d: 8  	pt: 0  	diff: 
+  	class: 精神病  	d: 2  	pt: 0  	diff: 
+  	class: 伤员  	d: 10  	pt: 0  	diff: 
+  	class: 残废  	d: 7  	pt: 0  	diff: 
+  	class: 残缺  	d: 8  	pt: 0  	diff: 
+  	class: 跛子  	d: 4  	pt: 0  	diff: 
+  	class: 骗子  	d: 5  	pt: 0  	diff: 
+  	class: 驼子  	d: 2  	pt: 0  	diff: 
+  	class: 驼  	d: 5  	pt: 0  	diff: 
+  	class: 瞎子  	d: 4  	pt: 0  	diff: 
+  	class: 哑巴  	d: 3  	pt: 0  	diff: 
+  	class: 孕妇  	d: 5  	pt: 0  	diff: 
+  	class: 怀孕  	d: 8  	pt: 0  	diff: 
+  	class: 鳏寡孤独  	d: 3  	pt: 0  	diff: 
+  	class: 鳏夫  	d: 2  	pt: 0  	diff: 
+  	class: 寡妇  	d: 4  	pt: 0  	diff: 
+  	class: 孤  	d: 3  	pt: 0  	diff: 
+  	class: 孤魂  	d: 2  	pt: 0  	diff: 
+  	class: 独裁者  	d: 4  	pt: 0  	diff: 
+  	class: 光杆儿  	d: 4  	pt: 0  	diff: 
+  	class: 单身汉  	d: 4  	pt: 0  	diff: 
+  	class: 富户  	d: 5  	pt: 0  	diff: 
+  	class: 财神  	d: 4  	pt: 0  	diff: 
+  	class: 阔少  	d: 3  	pt: 0  	diff: 
+  	class: 债主  	d: 2  	pt: 0  	diff: 
+  	class: 吸血鬼  	d: 2  	pt: 0  	diff: 
+  	class: 穷人  	d: 7  	pt: 0  	diff: 
+  	class: 寒士  	d: 2  	pt: 0  	diff: 
+  	class: 乞丐  	d: 7  	pt: 0  	diff: 
+  	class: 乞讨  	d: 8  	pt: 0  	diff: 
+  	class: 债户  	d: 6  	pt: 0  	diff: 
+  	class: 帮扶户  	d: 2  	pt: 0  	diff: 
+  	class: 闲杂人员  	d: 2  	pt: 0  	diff: 
+  	class: 幸运儿  	d: 8  	pt: 0  	diff: 
+  	class: 红人  	d: 3  	pt: 0  	diff: 
+  	class: 心肝  	d: 5  	pt: 0  	diff: 
+  	class: 可怜虫  	d: 2  	pt: 0  	diff: 
+  	class: 叩头虫  	d: 2  	pt: 0  	diff: 
+  	class: 无辜  	d: 3  	pt: 0  	diff: 
+  	class: 出气筒  	d: 2  	pt: 0  	diff: 
+  	class: 容易  	d: 16  	pt: 0  	diff: 
+  	class: 瓮中之鳖  	d: 2  	pt: 0  	diff: 
+  	class: 众矢之的  	d: 4  	pt: 0  	diff: 
+  	class: 屈死鬼  	d: 3  	pt: 0  	diff: 
+  	class: 被害人  	d: 6  	pt: 0  	diff: 
+  	class: 当事人  	d: 2  	pt: 0  	diff: 
+  	class: 冤大头  	d: 1  	pt: 0  	diff: 
+  	class: 银元  	d: 14  	pt: 0  	diff: 
+  	class: 替身  	d: 3  	pt: 0  	diff: 
+  	class: 下脚货  	d: 10  	pt: 0  	diff: 
+  	class: 敲门砖  	d: 2  	pt: 0  	diff: 
+  	class: 祸根  	d: 3  	pt: 0  	diff: 
+  	class: 火主  	d: 1  	pt: 0  	diff: 
+  	class: 怒火  	d: 9  	pt: 0  	diff: 
+  	class: 死难者  	d: 3  	pt: 0  	diff: 
+  	class: 难民  	d: 3  	pt: 0  	diff: 
+  	class: 灾民  	d: 1  	pt: 0  	diff: 
+  	class: 流浪汉  	d: 6  	pt: 0  	diff: 
+  	class: 逃亡者  	d: 1  	pt: 0  	diff: 
+  	class: 逃犯  	d: 3  	pt: 0  	diff: 
+  	class: 逃跑  	d: 23  	pt: 0  	diff: 
+  	class: 二流子  	d: 4  	pt: 0  	diff: 
+  	class: 窃贼  	d: 6  	pt: 0  	diff: 
+  	class: 败兵  	d: 7  	pt: 0  	diff: 
+  	class: 俘虏  	d: 13  	pt: 0  	diff: 
+  	class: 见证人  	d: 6  	pt: 0  	diff: 
+  	class: 舌头  	d: 3  	pt: 0  	diff: 
+  	class: 囚禁  	d: 9  	pt: 0  	diff: 
+  	class: 人质  	d: 3  	pt: 0  	diff: 
+  	class: 抵押  	d: 3  	pt: 0  	diff: 
+  	class: 违反者  	d: 3  	pt: 0  	diff: 
+  	class: 不合格者  	d: 2  	pt: 0  	diff: 
+  	class: 输家  	d: 3  	pt: 0  	diff: 
+  	class: 僧徒  	d: 8  	pt: 0  	diff: 
+  	class: 旅行  	d: 3  	pt: 0  	diff: 
+  	class: 过路人  	d: 2  	pt: 0  	diff: 
+  	class: 游人  	d: 11  	pt: 0  	diff: 
+  	class: 乘客  	d: 2  	pt: 0  	diff: 
+  	class: 参观者  	d: 2  	pt: 0  	diff: 
+  	class: 亲戚  	d: 5  	pt: 0  	diff: 
+  	class: 眷属  	d: 12  	pt: 0  	diff: 
+  	class: 家族  	d: 2  	pt: 0  	diff: 
+  	class: 姓  	d: 4  	pt: 0  	diff: 
+  	class: 诸亲好友  	d: 6  	pt: 0  	diff: 
+  	class: 外戚  	d: 2  	pt: 0  	diff: 
+  	class: 血亲  	d: 1  	pt: 0  	diff: 
+  	class: 姻亲  	d: 5  	pt: 0  	diff: 
+  	class: 深情  	d: 11  	pt: 0  	diff: 
+  	class: 夫妻  	d: 8  	pt: 0  	diff: 
+  	class: 女眷  	d: 2  	pt: 0  	diff: 
+  	class: 侨眷  	d: 2  	pt: 0  	diff: 
+  	class: 父辈  	d: 10  	pt: 0  	diff: 
+  	class: 叔祖  	d: 2  	pt: 0  	diff: 
+  	class: 叔祖母  	d: 2  	pt: 0  	diff: 
+  	class: 继父  	d: 2  	pt: 0  	diff: 
+  	class: 养父  	d: 3  	pt: 0  	diff: 
+  	class: 先父  	d: 1  	pt: 0  	diff: 
+  	class: 祖宗  	d: 8  	pt: 0  	diff: 
+  	class: 总  	d: 3  	pt: 0  	diff: 
+  	class: 鸨母  	d: 5  	pt: 0  	diff: 
+  	class: 庶母  	d: 1  	pt: 0  	diff: 
+  	class: 继母  	d: 5  	pt: 0  	diff: 
+  	class: 养母  	d: 4  	pt: 0  	diff: 
+  	class: 内外  	d: 4  	pt: 0  	diff: 
+  	class: 保护者  	d: 3  	pt: 0  	diff: 
+  	class: 父子  	d: 2  	pt: 0  	diff: 
+  	class: 伯父  	d: 1  	pt: 0  	diff: 
+  	class: 伯母  	d: 2  	pt: 0  	diff: 
+  	class: 大妈  	d: 3  	pt: 0  	diff: 
+  	class: 叔父  	d: 3  	pt: 0  	diff: 
+  	class: 第三  	d: 5  	pt: 0  	diff: 
+  	class: 叔母  	d: 5  	pt: 0  	diff: 
+  	class: 弟妇  	d: 5  	pt: 0  	diff: 
+  	class: 姑父  	d: 3  	pt: 0  	diff: 
+  	class: 姑母  	d: 4  	pt: 0  	diff: 
+  	class: 姑且  	d: 9  	pt: 0  	diff: 
+  	class: 姨父  	d: 3  	pt: 0  	diff: 
+  	class: 舅父  	d: 6  	pt: 0  	diff: 
+  	class: 姻  	d: 3  	pt: 0  	diff: 
+  	class: 妻舅  	d: 3  	pt: 0  	diff: 
+  	class: 舅母  	d: 4  	pt: 0  	diff: 
+  	class: 公婆  	d: 1  	pt: 0  	diff: 
+  	class: 姑表  	d: 2  	pt: 0  	diff: 
+  	class: 高山  	d: 5  	pt: 0  	diff: 
+  	class: 岳母  	d: 3  	pt: 0  	diff: 
+  	class: 情人  	d: 10  	pt: 0  	diff: 
+  	class: 女婿  	d: 8  	pt: 0  	diff: 
+  	class: 住持  	d: 3  	pt: 0  	diff: 
+  	class: 嫁  	d: 9  	pt: 0  	diff: 
+  	class: 内人  	d: 3  	pt: 0  	diff: 
+  	class: 嫂夫人  	d: 2  	pt: 0  	diff: 
+  	class: 发妻  	d: 6  	pt: 0  	diff: 
+  	class: 正房  	d: 3  	pt: 0  	diff: 
+  	class: 糟糠  	d: 1  	pt: 0  	diff: 
+  	class: 填房  	d: 4  	pt: 0  	diff: 
+  	class: 续弦  	d: 2  	pt: 0  	diff: 
+  	class: 鸳鸯  	d: 5  	pt: 0  	diff: 
+  	class: 配偶  	d: 2  	pt: 0  	diff: 
+  	class: 偶然  	d: 10  	pt: 0  	diff: 
+  	class: 家兄  	d: 2  	pt: 0  	diff: 
+  	class: 弟  	d: 4  	pt: 0  	diff: 
+  	class: 堂哥哥  	d: 2  	pt: 0  	diff: 
+  	class: 师哥  	d: 2  	pt: 0  	diff: 
+  	class: 令郎  	d: 4  	pt: 0  	diff: 
+  	class: 雁行  	d: 2  	pt: 0  	diff: 
+  	class: 同胞  	d: 2  	pt: 0  	diff: 
+  	class: 表兄弟  	d: 2  	pt: 0  	diff: 
+  	class: 姐  	d: 5  	pt: 0  	diff: 
+  	class: 妹  	d: 6  	pt: 0  	diff: 
+  	class: 姐妹  	d: 3  	pt: 0  	diff: 
+  	class: 连襟  	d: 3  	pt: 0  	diff: 
+  	class: 姐夫  	d: 2  	pt: 0  	diff: 
+  	class: 妹夫  	d: 2  	pt: 0  	diff: 
+  	class: 内兄  	d: 2  	pt: 0  	diff: 
+  	class: 内弟  	d: 3  	pt: 0  	diff: 
+  	class: 大姑  	d: 2  	pt: 0  	diff: 
+  	class: 小姑  	d: 2  	pt: 0  	diff: 
+  	class: 大姨  	d: 2  	pt: 0  	diff: 
+  	class: 雄  	d: 2  	pt: 0  	diff: 
+  	class: 男  	d: 3  	pt: 0  	diff: 
+  	class: 子孙  	d: 14  	pt: 0  	diff: 
+  	class: 养子  	d: 4  	pt: 0  	diff: 
+  	class: 继子  	d: 1  	pt: 0  	diff: 
+  	class: 过继  	d: 2  	pt: 0  	diff: 
+  	class: 小儿  	d: 1  	pt: 0  	diff: 
+  	class: 养女  	d: 2  	pt: 0  	diff: 
+  	class: 良心  	d: 3  	pt: 0  	diff: 
+  	class: 独子  	d: 6  	pt: 0  	diff: 
+  	class: 双胞胎  	d: 2  	pt: 0  	diff: 
+  	class: 平坦  	d: 9  	pt: 0  	diff: 
+  	class: 甥  	d: 2  	pt: 0  	diff: 
+  	class: 佳婿  	d: 2  	pt: 0  	diff: 
+  	class: 赘婿  	d: 1  	pt: 0  	diff: 
+  	class: 入赘  	d: 7  	pt: 0  	diff: 
+  	class: 姑老爷  	d: 2  	pt: 0  	diff: 
+  	class: 侄  	d: 5  	pt: 0  	diff: 
+  	class: 侄女  	d: 3  	pt: 0  	diff: 
+  	class: 甥女  	d: 2  	pt: 0  	diff: 
+  	class: 孙  	d: 3  	pt: 0  	diff: 
+  	class: 曾孙  	d: 3  	pt: 0  	diff: 
+  	class: 曾孙女  	d: 2  	pt: 0  	diff: 
+  	class: 外孙  	d: 2  	pt: 0  	diff: 
+  	class: 鼻祖  	d: 4  	pt: 0  	diff: 
+  	class: 创始人  	d: 7  	pt: 0  	diff: 
+  	class: 开山  	d: 2  	pt: 0  	diff: 
+  	class: 佛  	d: 4  	pt: 0  	diff: 
+  	class: 前人  	d: 6  	pt: 0  	diff: 
+  	class: 先锋  	d: 4  	pt: 0  	diff: 
+  	class: 上辈  	d: 4  	pt: 0  	diff: 
+  	class: 引进者  	d: 2  	pt: 0  	diff: 
+  	class: 今人  	d: 3  	pt: 0  	diff: 
+  	class: 自己人  	d: 5  	pt: 0  	diff: 
+  	class: 一代人  	d: 2  	pt: 0  	diff: 
+  	class: 后人  	d: 12  	pt: 0  	diff: 
+  	class: 古人  	d: 5  	pt: 0  	diff: 
+  	class: 上级  	d: 5  	pt: 0  	diff: 
+  	class: 侪  	d: 2  	pt: 0  	diff: 
+  	class: 下辈  	d: 5  	pt: 0  	diff: 
+  	class: 继  	d: 3  	pt: 0  	diff: 
+  	class: 落后  	d: 1  	pt: 0  	diff: 
+  	class: 受益者  	d: 2  	pt: 0  	diff: 
+  	class: 朋友  	d: 6  	pt: 0  	diff: 
+  	class: 结交  	d: 7  	pt: 0  	diff: 
+  	class: 好友  	d: 10  	pt: 0  	diff: 
+  	class: 相识  	d: 3  	pt: 0  	diff: 
+  	class: 深交  	d: 6  	pt: 0  	diff: 
+  	class: 老交情  	d: 3  	pt: 0  	diff: 
+  	class: 旧交  	d: 7  	pt: 0  	diff: 
+  	class: 本来  	d: 12  	pt: 0  	diff: 
+  	class: 新交  	d: 3  	pt: 0  	diff: 
+  	class: 难友  	d: 2  	pt: 0  	diff: 
+  	class: 益友  	d: 5  	pt: 0  	diff: 
+  	class: 世交  	d: 2  	pt: 0  	diff: 
+  	class: 教友  	d: 1  	pt: 0  	diff: 
+  	class: 同学  	d: 6  	pt: 0  	diff: 
+  	class: 恩人  	d: 4  	pt: 0  	diff: 
+  	class: 仇人  	d: 7  	pt: 0  	diff: 
+  	class: 相投  	d: 20  	pt: 0  	diff: 
+  	class: 冤仇  	d: 4  	pt: 0  	diff: 
+  	class: 死敌  	d: 4  	pt: 0  	diff: 
+  	class: 外敌  	d: 2  	pt: 0  	diff: 
+  	class: 残敌  	d: 2  	pt: 0  	diff: 
+  	class: 夙仇  	d: 4  	pt: 0  	diff: 
+  	class: 对手  	d: 5  	pt: 0  	diff: 
+  	class: 匹敌  	d: 21  	pt: 0  	diff: 
+  	class: 信任  	d: 9  	pt: 0  	diff: 
+  	class: 丹心  	d: 15  	pt: 0  	diff: 
+  	class: 邻居  	d: 12  	pt: 0  	diff: 
+  	class: 一伙  	d: 3  	pt: 0  	diff: 
+  	class: 同伴  	d: 9  	pt: 0  	diff: 
+  	class: 一路货  	d: 4  	pt: 0  	diff: 
+  	class: 合作  	d: 7  	pt: 0  	diff: 
+  	class: 一行  	d: 5  	pt: 0  	diff: 
+  	class: 共同  	d: 31  	pt: 0  	diff: 
+  	class: 同道  	d: 3  	pt: 0  	diff: 
+  	class: 合作者  	d: 3  	pt: 0  	diff: 
+  	class: 把兄弟  	d: 5  	pt: 0  	diff: 
+  	class: 同班  	d: 2  	pt: 0  	diff: 
+  	class: 学长  	d: 2  	pt: 0  	diff: 
+  	class: 共事  	d: 2  	pt: 0  	diff: 
+  	class: 同事  	d: 2  	pt: 0  	diff: 
+  	class: 同僚  	d: 2  	pt: 0  	diff: 
+  	class: 物主  	d: 7  	pt: 0  	diff: 
+  	class: 东  	d: 6  	pt: 0  	diff: 
+  	class: 主妇  	d: 4  	pt: 0  	diff: 
+  	class: 寄主  	d: 2  	pt: 0  	diff: 
+  	class: 客人  	d: 4  	pt: 0  	diff: 
+  	class: 贵宾  	d: 6  	pt: 0  	diff: 
+  	class: 男宾  	d: 2  	pt: 0  	diff: 
+  	class: 宾主  	d: 2  	pt: 0  	diff: 
+  	class: 接受方  	d: 2  	pt: 0  	diff: 
+  	class: 顾客  	d: 6  	pt: 0  	diff: 
+  	class: 购买者  	d: 5  	pt: 0  	diff: 
+  	class: 消费群  	d: 3  	pt: 0  	diff: 
+  	class: 军队  	d: 17  	pt: 0  	diff: 
+  	class: 人马  	d: 1  	pt: 0  	diff: 
+  	class: 党徒  	d: 2  	pt: 0  	diff: 
+  	class: 私党  	d: 2  	pt: 0  	diff: 
+  	class: 上  	d: 4  	pt: 0  	diff: 
+  	class: 下  	d: 15  	pt: 0  	diff: 
+  	class: 内情  	d: 10  	pt: 0  	diff: 
+  	class: 平级  	d: 2  	pt: 0  	diff: 
+  	class: 助手  	d: 11  	pt: 0  	diff: 
+  	class: 符合  	d: 13  	pt: 0  	diff: 
+  	class: 入手  	d: 4  	pt: 0  	diff: 
+  	class: 上臂  	d: 4  	pt: 0  	diff: 
+  	class: 臂  	d: 10  	pt: 0  	diff: 
+  	class: 聪明人  	d: 5  	pt: 0  	diff: 
+  	class: 靠山  	d: 4  	pt: 0  	diff: 
+  	class: 腰  	d: 7  	pt: 0  	diff: 
+  	class: 柱  	d: 5  	pt: 0  	diff: 
+  	class: 师母  	d: 2  	pt: 0  	diff: 
+  	class: 屋主  	d: 5  	pt: 0  	diff: 
+  	class: 收信人  	d: 2  	pt: 0  	diff: 
+  	class: 寄卡人  	d: 3  	pt: 0  	diff: 
+  	class: 主持人  	d: 4  	pt: 0.0  	diff: 
+  	class: 司仪  	d: 3  	pt: 0  	diff: 
+  	class: 与会者  	d: 2  	pt: 0  	diff: 
+  	class: 演讲者  	d: 3  	pt: 0  	diff: 
+  	class: 专人  	d: 4  	pt: 0  	diff: 
+  	class: 特派员  	d: 2  	pt: 0  	diff: 
+  	class: 钦差大臣  	d: 2  	pt: 0  	diff: 
+  	class: 意味  	d: 9  	pt: 0  	diff: 
+  	class: 代办  	d: 6  	pt: 0  	diff: 
+  	class: 代表  	d: 3  	pt: 0  	diff: 
+  	class: 代言人  	d: 3  	pt: 0  	diff: 
+  	class: 保证人  	d: 10  	pt: 0  	diff: 
+  	class: 管保  	d: 16  	pt: 0  	diff: 
+  	class: 中间人  	d: 1  	pt: 0  	diff: 
+  	class: 调解人  	d: 4  	pt: 0  	diff: 
+  	class: 仲裁人  	d: 6  	pt: 0  	diff: 
+  	class: 证婚  	d: 2  	pt: 0  	diff: 
+  	class: 被告人  	d: 3  	pt: 0  	diff: 
+  	class: 举报者  	d: 3  	pt: 0  	diff: 
+  	class: 媒人  	d: 9  	pt: 0  	diff: 
+  	class: 介绍人  	d: 1  	pt: 0  	diff: 
+  	class: 男傧相  	d: 2  	pt: 0  	diff: 
+  	class: 伴娘  	d: 2  	pt: 0  	diff: 
+  	class: 中介  	d: 2  	pt: 0  	diff: 
+  	class: 新郎  	d: 2  	pt: 0  	diff: 
+  	class: 新娘  	d: 6  	pt: 0  	diff: 
+  	class: 对象  	d: 4  	pt: 0  	diff: 
+  	class: 男朋友  	d: 3  	pt: 0  	diff: 
+  	class: 高兴  	d: 50  	pt: 0  	diff: 
+  	class: 女朋友  	d: 2  	pt: 0  	diff: 
+  	class: 姘头  	d: 2  	pt: 0  	diff: 
