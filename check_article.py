@@ -34,25 +34,27 @@ while True:
     command=input('Command:')
 
     clist=command.split()
-
-    if clist[0]=='url':
-        for i in alist:
-            if i[0]==clist[1]:
-                print(i[1])
-                break
-    elif clist[0]=='title':
-        for i in alist:
-            if i[0]==clist[1]:
-                print(i[2])
-                break
-    elif clist[0]=='txt':
-        for i in alist:
-            if i[0]==clist[1]:
-                print(i[3])
-                break
-    elif clist[0]=='search':
-        for i in alist:
-            if clist[1] in i[3]:
-                print(i[0])
-        print('Complete')
+    try:
+        if clist[0]=='url':
+            for i in alist:
+                if i[0]==clist[1]:
+                    print(i[1])
+                    break
+        elif clist[0]=='title':
+            for i in alist:
+                if i[0]==clist[1]:
+                    print(i[2])
+                    break
+        elif clist[0]=='txt':
+            for i in alist:
+                if i[0]==clist[1]:
+                    print(i[3])
+                    break
+        elif clist[0]=='search':
+            for i in alist:
+                if clist[1] in i[3]:
+                    print(i[0])
+            print('Complete')
+    except:
+        print("Ignored")
 
