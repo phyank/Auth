@@ -2,6 +2,19 @@ import jieba.posseg
 import csv
 import pickle
 
+WORD=0
+CLASS=1
+NO=2
+CLASS_SUM=3
+
+CURRENT_CLASS=0
+WORD_COUNTER_DICT=1
+SUM_OF_CLASS=2
+
+CLASS_PARTICIPATION=0
+DIMENSION=1
+MEMBERS=2
+
 #这个列表存储目标CSV文件的名称。要添加新的文件，只需加在此处。
 database=['dsjwz.csv','gkw.csv','jqzx.csv','ktx.csv','mm.csv','xkd.csv','xsx.csv']
 
@@ -42,6 +55,16 @@ def make_dict():
             i = 0
             for word in line:
                 dict[word] = [word, father, i]
+
+    with open('data/pickle/dict.pickle','wb') as pfile:
+        pickle.dump(dict,pfile,2)
+
+    print("Make dict success.")
+    return True
+
+def get_dict():
+    with open('data/pickle/dict.pickle','rb') as pfile:
+        dict=pickle.load(pfile)
 
     return dict
 
@@ -109,9 +132,21 @@ def get_cut_dataset():
         cut_dataset=pickle.load(dumpfile)
     return cut_dataset
 
+def make_class_dict(dict):
+    class_dict={}
+    for word in dict:
+        current_class=dict[word][CLASS]
+        if current_class not in class_dict:
+            class_dict[current_class]=[0,1,''] #class_participation, sum_of_class_member
+        else:
+            class_dict[current_class][DIMENSION]+=1
+
+    return class_dict
+
 def run(learnlist,checklist,dict):
     counterl={}
     counterc={}
+    class_dict=make_class_dict(dict)
 
     for word in learnlist:
         if word not in dict:
@@ -187,20 +222,59 @@ def run(learnlist,checklist,dict):
             else:
                 ratio2 = 0
 
-            difference+=(ratio1-ratio2 if ratio1>=ratio2 else ratio2-ratio1)
+            if not ratio1:
+                appear='B'
+            elif not ratio2:
+                appear='A'
+            else:
+                appear='AB'
 
-    return difference/sum,sum,len(common_class)
+            abs=ratio1-ratio2 if ratio1>=ratio2 else ratio2-ratio1
 
-dict=make_dict()
+            class_dict[class_record_l[CURRENT_CLASS]][CLASS_PARTICIPATION]+=abs
+            if abs>0:
+                class_dict[class_record_l[CURRENT_CLASS]][MEMBERS]+=' '+aWord+appear+str(abs)
+            difference+=abs
+
+    return difference/sum,sum,len(common_class),class_dict
+
+#Run only once
+#make_cut()
+#make_dict()
+dict=get_dict()
+
 
 for i in range(0,len(database)):
     for j in range(i+1, len(database)):
 
-        with open('data/'+database[i]+'.txt') as file1:
+        with open('data/cut/'+database[i]+'.txt') as file1:
             list1=file1.read().split()
 
-        with open('data/'+database[j]+'.txt') as file2:
+        with open('data/cut/'+database[j]+'.txt') as file2:
             list2=file2.read().split()
 
-        index,sum1,sum2=run(list1,list2,dict)
-        print('learn:',database[i],', check:',database[j],' \t',' Result:',' \t',index,' \t',sum1,' \t',sum2)
+        index,sum1,sum2,class_dict=run(list1,list2,dict)
+
+        sorted_class=[]
+        for key in class_dict:
+            class_record=class_dict[key]
+            sorted_class.append((key,class_record[CLASS_PARTICIPATION],class_record[DIMENSION],class_record[MEMBERS]))
+
+
+        sorted_class=sorted(sorted_class,key=lambda tuple: tuple[1],reverse=True)
+
+        result='learn:'+database[i]+' check:'+database[j]+' \t Result: \t'+str(index)+' \t'+str(sum1)+' \t'+str(sum2)
+        print(result)
+
+        result+='\n\n\n'
+        l=0
+        for k in sorted_class:
+            if l<=1000:
+                result+="\n  \tclass: "+k[0]+"  \tpt: "+str(k[1])+"  \tdiff: "+k[3]
+                l+=1
+            else:
+                break
+        rfile=open('data/result/'+str(i)+' v. '+str(j)+'.txt','w')
+        rfile.write(result)
+        rfile.close()
+
