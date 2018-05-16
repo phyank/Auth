@@ -4,8 +4,6 @@ import pickle
 
 from Auth.common import *
 
-#这个列表存储目标CSV文件的名称。要添加新的文件，只需加在此处。
-database=['dsjwz.csv','gkw.csv','jqzx.csv','ktx.csv','mm.csv','xkd.csv','xsx.csv']
 
 # 这个函数解析上述列表里的CSV文件，并返回一个字典。字典的键为上面列表里的名称，对应的值是每个csv文件的文章列表。
 # 其中每一篇文章是一个元组：（num,url,title,content）

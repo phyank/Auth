@@ -10,7 +10,7 @@ while True:
 
     if init:
         print("Working on " + aset)
-        ifchange=input("Change set?: ")
+        ifchange=input("Change set? [yes]: ")
         if ifchange in "YyYesyesYES":
             change=True
         else:

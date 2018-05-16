@@ -89,15 +89,16 @@ def run(learnlist,checklist,dict):
 
             abs=ratio1-ratio2 if ratio1>=ratio2 else ratio2-ratio1
 
-            class_dict[class_record_l[CURRENT_CLASS]][CLASS_PARTICIPATION]+=abs
-            if abs>0:
-                class_dict[class_record_l[CURRENT_CLASS]][MEMBERS]+=' '+aWord+appear+str(abs)
+            class_dict[aClass][CLASS_PARTICIPATION]+=abs
+
+            class_dict[aClass][MEMBERS]+=' '+aWord+appear+str(abs)
+
             difference+=abs
 
     if sum!=0:
         return difference/sum,sum,len(common_class),class_dict
     else:
-        return difference-100,sum,len(common_class),class_dict
+        return 0,sum,len(common_class),class_dict
 
 
 def com_all():
@@ -131,8 +132,9 @@ def com_all():
             l=0
             for k in sorted_class:
                 if l<=1000:
-                    result+="\n  \tclass: "+k[0]+"  \td: "+str(k[2])+"  \tpt: "+str(k[1])+"  \tdiff: "+k[3]
-                    l+=1
+                    if k[1]:
+                        result+="\n  \tclass: "+k[0]+"  \td: "+str(k[2])+"  \tpt: "+str(k[1])+"  \tdiff: "+k[3]
+                        l+=1
                 else:
                     break
             rfile=open('data/result/'+str(i)+' v. '+str(j)+'.txt','w')
@@ -145,6 +147,8 @@ def cmp_article(learn_set,check_set,list_of_article):
     with open('data/cut/' + learn_set + '.txt') as file1:
         list1 = file1.read().split()
 
+    m=0###############
+    sumindex=0########
     for article in list_of_article:
         list2=article[3].split()
         index, sum1, sum2, class_dict = run(list1, list2, dict)
@@ -162,22 +166,58 @@ def cmp_article(learn_set,check_set,list_of_article):
         title=title.replace('/','div')
         title=title.replace('.','point')
 
-        result = 'learn:' + learn_set + ' check Article'+article[0]+':' + title + ' \t Result: \t' + str(index) + ' \t' + str(
+        result = '\tlearn:' + learn_set + ' check '+check_set+":"+article[0]+':' + title + '     \t Result: \t' + str(index) + ' \t' + str(
             sum1) + ' \t' + str(sum2)
+
+        sumindex+=index######################
+        if index:
+            m+=1#################################
+
         print(result)
 
         result += '\n\n\n'
         l = 0
         for k in sorted_class:
             if l <= 1000:
-                result += "\n  \tclass: " + k[0] + "  \td: " + str(k[2]) + "  \tpt: " + str(k[1]) + "  \tdiff: " + k[3]
-                l += 1
+                if k[1]:
+                    result += "\n  \tclass: " + k[0] + "  \td: " + str(k[2]) + "  \tpt: " + str(k[1]) + "  \tdiff: " + k[3]
+                    l += 1
             else:
                 break
         rfile = open('data/result/chk_article/' + learn_set + '.v.' + check_set+ ":"+article[0]+":"+title + '.txt', 'w')
         rfile.write(result)
         rfile.close()
 
+    print("avg: ",sumindex/m)
+
+
+def test_run():
+    dict = get_dict()
+
+    # 极端情况测试——完全不同
+    index, sum1, sum2, class_dict = run(['女巫', '女巫', '女巫'], ['巫婆'], dict)
+    print('Different--- Result: \t' + str(index) + ' \t' + str(sum1) + ' \t' + str(sum2))
+
+    # 极端情况测试——比较不同
+    dict = get_dict()
+    index, sum1, sum2, class_dict = run(['巫婆', '巫婆', '巫婆', '女巫'], ['巫婆', '女巫', '女巫', '女巫', '女巫'], dict)
+    print('Vary--- Result: \t' + str(index) + ' \t' + str(sum1) + ' \t' + str(sum2))
+
+    # 极端情况测试——比较类似
+    dict = get_dict()
+    index, sum1, sum2, class_dict = run(['女巫', '女巫', '女巫'], ['巫婆', '女巫', '女巫', '女巫', '女巫'], dict)
+    print('Alike--- Result: \t' + str(index) + ' \t' + str(sum1) + ' \t' + str(sum2))
+
+    # 极端情况测试——完全相同
+    dict = get_dict()
+    index, sum1, sum2, class_dict = run(['女巫', '女巫'], ['女巫', '女巫', '女巫', '女巫', '女巫', '女巫'], dict)
+    print('Same--- Result: \t' + str(index) + ' \t' + str(sum1) + ' \t' + str(sum2))
+
 cut_dataset=get_cut_dataset()
-listofa=cut_dataset['dsjwz.csv']
-cmp_article('jqzx.csv','dsjwz.csv',listofa)
+listofa=cut_dataset['mm.csv']
+cmp_article('jqzx.csv','mm.csv',listofa)
+
+
+
+
+

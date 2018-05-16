@@ -13,6 +13,9 @@ CLASS_PARTICIPATION=0
 DIMENSION=1
 MEMBERS=2
 
+#这个列表存储目标CSV文件的名称。要添加新的文件，只需加在此处。
+database=['dsjwz.csv','gkw.csv','jqzx.csv','ktx.csv','mm.csv','xkd.csv','xsx.csv']
+
 #这个函数返回上述被pickle的字典
 def get_cut_dataset():
     with open('data/pickle/cut_dataset.pickle','rb') as dumpfile:
