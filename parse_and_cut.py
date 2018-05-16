@@ -2,6 +2,8 @@ import jieba.posseg
 import csv
 import pickle
 
+from Auth.common import *
+
 #这个列表存储目标CSV文件的名称。要添加新的文件，只需加在此处。
 database=['dsjwz.csv','gkw.csv','jqzx.csv','ktx.csv','mm.csv','xkd.csv','xsx.csv']
 
@@ -43,7 +45,12 @@ def make_dict():
             for word in line:
                 dict[word] = [word, father, i]
 
-    return dict
+    with open('data/pickle/dict.pickle','wb') as pfile:
+        pickle.dump(dict,pfile,2)
+
+    print("Make dict success.")
+    return True
+
 
 #这个函数将传入字符串中的实词提取出，并返回包含这些实词的字符串，词以空格分隔。
 def get_real_words(str1):
@@ -103,10 +110,6 @@ def make_cut():
     file.close()
     print("Dumping cut dataset success!")
 
-#这个函数返回上述被pickle的字典
-def get_cut_dataset():
-    with open('data/pickle/cut_dataset.pickle','rb') as dumpfile:
-        cut_dataset=pickle.load(dumpfile)
-    return cut_dataset
 
+make_dict()
 make_cut()
