@@ -109,10 +109,10 @@ def com_all():
     for i in range(0,len(database)):
         for j in range(i+1, len(database)):
 
-            with open('data/cut/'+database[i]+'.txt') as file1:
+            with open(CUT_FILE_DIR+database[i]+'.txt') as file1:
                 list1=file1.read().split()
 
-            with open('data/cut/'+database[j]+'.txt') as file2:
+            with open(CUT_FILE_DIR+database[j]+'.txt') as file2:
                 list2=file2.read().split()
 
             index,sum1,sum2,class_dict=run(list1,list2,dict)
@@ -144,7 +144,7 @@ def com_all():
 def cmp_article(learn_set,check_set,list_of_article):
     dict=get_dict()
 
-    with open('data/cut/' + learn_set + '.txt') as file1:
+    with open(CUT_FILE_DIR + learn_set + '.txt') as file1:
         list1 = file1.read().split()
 
     m=0###############
@@ -184,7 +184,7 @@ def cmp_article(learn_set,check_set,list_of_article):
                     l += 1
             else:
                 break
-        rfile = open('data/result/chk_article/' + learn_set + '.v.' + check_set+ ":"+article[0]+":"+title + '.txt', 'w')
+        rfile = open(CHK_ARTICLE_REPORT_DIR + learn_set + '.v.' + check_set+ ":"+article[0]+":"+title + '.txt', 'w')
         rfile.write(result)
         rfile.close()
 
@@ -215,7 +215,7 @@ def test_run():
 
 cut_dataset=get_cut_dataset()
 listofa=cut_dataset['mm.csv']
-cmp_article('jqzx.csv','mm.csv',listofa)
+cmp_article('dsjwz.csv','mm.csv',listofa)
 
 
 

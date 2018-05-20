@@ -3,6 +3,7 @@ import csv
 import pickle
 
 from Auth.common import *
+from Auth.pyltp_cut import *
 
 
 # 这个函数解析上述列表里的CSV文件，并返回一个字典。字典的键为上面列表里的名称，对应的值是每个csv文件的文章列表。
@@ -79,6 +80,7 @@ def get_real_words(str1):
         strreal = " ".join(lreal)
         return strreal
 
+
 #这个函数没有返回值，它将database列表里的所有csv文件进行分词，并生成两个集合：
 #   1. 与每个csv文件对应的实词词袋，放置于同一个文件夹中，文件名为： csv文件名+‘.txt’
 #   2. 一个记录所有csv文章各自的实词的字典，它的结构与上面提到的original_dataset字典一样，
@@ -93,21 +95,24 @@ def make_cut():
         cut_dataset[acsv]=[]
         current_list=cut_dataset[acsv]
         for article in original_dataset[acsv]:
-            current_real_words=get_real_words(article[3])
+            current_real_words=get_real_words_hit(article[3])
             real_words+=current_real_words
             current_list.append((article[0],article[1],article[2],current_real_words))
 
 
-        file=open('data/cut/'+acsv+'.txt','w')
+        file=open('data/cut_hit/'+acsv+'.txt','w')
         file.write(real_words)
         file.close()
         print('Cutting '+acsv+' completed!')
 
-    file = open('data/pickle/cut_dataset.pickle', 'wb')
+    file = open('data/pickle/cut_dataset_hit.pickle', 'wb')
     pickle.dump(cut_dataset,file,2)
     file.close()
     print("Dumping cut dataset success!")
 
+
 def prepare():
     make_dict()
     make_cut()
+
+#prepare()

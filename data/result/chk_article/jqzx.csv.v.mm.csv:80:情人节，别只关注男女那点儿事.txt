@@ -1,3 +1,0 @@
-	learn:jqzx.csv check mm.csv:80:情人节，别只关注男女那点儿事     	 Result: 	0 	0 	0
-
-

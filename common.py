@@ -1,5 +1,14 @@
 import pickle
 
+
+# CHK_ARTICLE_REPORT_DIR='data/result/chk_article/'
+# CUT_FILE_DIR='data/cut/'
+# CUT_DATASET_FILE='data/pickle/cut_dataset.pickle'
+
+CHK_ARTICLE_REPORT_DIR='data/result/chk_article_hit/'
+CUT_FILE_DIR='data/cut_hit/'
+CUT_DATASET_FILE='data/pickle/cut_dataset_hit.pickle'
+
 WORD=0
 CLASS=1
 NO=2
@@ -18,7 +27,7 @@ database=['dsjwz.csv','gkw.csv','jqzx.csv','ktx.csv','mm.csv','xkd.csv','xsx.csv
 
 #这个函数返回上述被pickle的字典
 def get_cut_dataset():
-    with open('data/pickle/cut_dataset.pickle','rb') as dumpfile:
+    with open(CUT_DATASET_FILE,'rb') as dumpfile:
         cut_dataset=pickle.load(dumpfile)
     return cut_dataset
 
