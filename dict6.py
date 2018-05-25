@@ -1,9 +1,10 @@
 from Auth.common import *
 from Auth.parse_and_cut import *
 
-#同义词类内部词频差异比较
+#同义词类内部词频差异比较_clean
 
-def run(learnlist,checklist,dict):
+
+def run(learnlist,checklist,dict,pass_dict):
     counterl={}
     counterc={}
     class_dict=make_class_dict(dict)
@@ -48,9 +49,12 @@ def run(learnlist,checklist,dict):
 
     common_class={}
 
+
     for aClass in counterl:
         if aClass in counterc:
-            common_class[aClass]=True
+             if aClass in pass_dict: pass
+             else:
+                common_class[aClass]=True
 
     difference=0
     sum=0
@@ -145,6 +149,7 @@ def com_all():
 
 def cmp_article(learn_set,check_set,list_of_article):
     dict=get_dict()
+    pass_dict=get_pass_dict()
 
     with open(CUT_FILE_DIR + learn_set + '.txt') as file1:
         list1 = file1.read().split()
@@ -153,7 +158,7 @@ def cmp_article(learn_set,check_set,list_of_article):
     sumindex=0########
     for article in list_of_article:
         list2=article[3].split()
-        index, sum1, sum2, class_dict = run(list1, list2, dict)
+        index, sum1, sum2, class_dict = run(list1, list2, dict,pass_dict)
 
         sorted_class = []
         for key in class_dict:
@@ -176,24 +181,24 @@ def cmp_article(learn_set,check_set,list_of_article):
             m+=1#################################
 
         print(result)
-
-        result += '\n\n\n'
-        l = 0
-        for k in sorted_class:
-            if l <= 1000:
-                if k[1]:
-                    result += "\n  \tclass: " + k[0] + "  \td: " + str(k[2]) + "  \tpt: " + str(k[1]) + "  \tdiff: " + k[3]
-                    l += 1
-            else:
-                break
-        rfile = open(CHK_ARTICLE_REPORT_DIR + learn_set + '.v.' + check_set+ ":"+article[0]+":"+title + '.txt', 'w')
-        rfile.write(result)
-        rfile.close()
+        #
+        # result += '\n\n\n'
+        # l = 0
+        # for k in sorted_class:
+        #     if l <= 1000:
+        #         if k[1]:
+        #             result += "\n  \tclass: " + k[0] + "  \td: " + str(k[2]) + "  \tpt: " + str(k[1]) + "  \tdiff: " + k[3]
+        #             l += 1
+        #     else:
+        #         break
+        # rfile = open(CHK_ARTICLE_REPORT_DIR + learn_set + '.v.' + check_set+ ":"+article[0]+":"+title + '.txt', 'w')
+        # rfile.write(result)
+        # rfile.close()
 
     print("avg: ",sumindex/m)
 
 
-def test_run():
+def tt_run():
     dict = get_dict()
 
     # 极端情况测试——完全不同
@@ -215,10 +220,10 @@ def test_run():
     index, sum1, sum2, class_dict = run(['女巫', '女巫'], ['女巫', '女巫', '女巫', '女巫', '女巫', '女巫'], dict)
     print('Same--- Result: \t' + str(index) + ' \t' + str(sum1) + ' \t' + str(sum2))
 
-#cut_dataset=get_cut_dataset()
-#listofa=cut_dataset['jqzx.csv']
-#cmp_article('jqzx.csv','jqzx.csv',listofa)
-test_run()
+cut_dataset=get_cut_dataset()
+listofa=cut_dataset['dsjwz.csv']
+cmp_article('dsjwz.csv','dsjwz.csv',listofa)
+#test_run()
 
 
 

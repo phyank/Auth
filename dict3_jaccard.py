@@ -1,7 +1,7 @@
 from Auth.common import *
 from Auth.parse_and_cut import *
 
-#同义词类内部词频差异比较
+#基于jaccard系数，忽略概率的具体差异
 
 def run(learnlist,checklist,dict):
     counterl={}
@@ -64,43 +64,58 @@ def run(learnlist,checklist,dict):
         word_counter_dict_c=class_record_c[WORD_COUNTER_DICT]
 
         for aWord in word_counter_dict_l:
-            difference_counter[aWord]=True
+            difference_counter[aWord]={Q:0,R:0,S:0}
 
         for aWord in word_counter_dict_c:
-            difference_counter[aWord]=True
+            difference_counter[aWord]={Q:0,R:0,S:0}
 
         for aWord in difference_counter:
             sum+=1
 
             if aWord in word_counter_dict_l:
-                ratio1=word_counter_dict_l[aWord]/class_record_l[SUM_OF_CLASS]
+                ratio1=word_counter_dict_l[aWord]
             else:
                 ratio1=0
 
             if aWord in word_counter_dict_c:
-                ratio2 = word_counter_dict_c[aWord] / class_record_c[SUM_OF_CLASS]
+                ratio2 = word_counter_dict_c[aWord]
             else:
                 ratio2 = 0
 
+            q,s,r=0,0,0
             if not ratio1:
-                appear='B'
+                s=ratio2
             elif not ratio2:
-                appear='A'
+                r=ratio1
             else:
-                appear='AB'
+                q=ratio1+ratio2
 
-            abs=ratio1-ratio2 if ratio1>=ratio2 else ratio2-ratio1
+            difference_counter[aWord][Q],difference_counter[aWord][S],difference_counter[aWord][R]=q,s,r
 
-            class_dict[aClass][CLASS_PARTICIPATION]+=abs
+            #class_dict[aClass][CLASS_PARTICIPATION]+=abs
 
-            class_dict[aClass][MEMBERS]+=' '+aWord+appear+str(abs)
+            #class_dict[aClass][MEMBERS]+=' '+aWord+appear+str(abs)
+        q,r,s=0,0,0
+        for aWord in difference_counter:
+            record=difference_counter[aWord]
+            q+=record[Q]
+            s+=record[S]
+            r+=record[R]
 
-            difference+=abs
+        d=(r+s)/(q+r+s)
 
-    if sum!=0:
-        return difference/sum,sum,len(common_class),class_dict
+        class_dict[aClass][CLASS_PARTICIPATION]+=d
+
+        difference+=d
+
+    if len(common_class)!=0:
+        difference/=len(common_class)
     else:
-        return 0,sum,len(common_class),class_dict
+        difference=0
+
+
+    return difference,sum,len(common_class),class_dict
+
 
 
 def com_all():
@@ -193,7 +208,7 @@ def cmp_article(learn_set,check_set,list_of_article):
     print("avg: ",sumindex/m)
 
 
-def test_run():
+def t_run():
     dict = get_dict()
 
     # 极端情况测试——完全不同
@@ -215,11 +230,10 @@ def test_run():
     index, sum1, sum2, class_dict = run(['女巫', '女巫'], ['女巫', '女巫', '女巫', '女巫', '女巫', '女巫'], dict)
     print('Same--- Result: \t' + str(index) + ' \t' + str(sum1) + ' \t' + str(sum2))
 
-#cut_dataset=get_cut_dataset()
-#listofa=cut_dataset['jqzx.csv']
-#cmp_article('jqzx.csv','jqzx.csv',listofa)
-test_run()
-
+# cut_dataset=get_cut_dataset()
+# listofa=cut_dataset['dsjwz.csv']
+# cmp_article('jqzx.csv','dsjwz.csv',listofa)
+t_run()
 
 
 

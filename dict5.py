@@ -1,6 +1,8 @@
 from Auth.common import *
 from Auth.parse_and_cut import *
 
+#统计dict3测量方法中各个同义词类的贡献
+
 def run(learnlist,checklist,dict,class_dict):
     counterl={}
     counterc={}

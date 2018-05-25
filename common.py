@@ -22,6 +22,10 @@ CLASS_PARTICIPATION=0
 DIMENSION=1
 MEMBERS=2
 
+Q=0
+R=1
+S=2
+
 #这个列表存储目标CSV文件的名称。要添加新的文件，只需加在此处。
 database=['dsjwz.csv','gkw.csv','jqzx.csv','ktx.csv','mm.csv','xkd.csv','xsx.csv']
 
@@ -37,6 +41,12 @@ def get_dict():
 
     return dict
 
+def get_pass_dict():
+    with open('data/pickle/pass_dict.pickle','rb') as pfile:
+        dict=pickle.load(pfile)
+
+    return dict
+
 def make_class_dict(dict):
     class_dict={}
     for word in dict:
@@ -47,3 +57,13 @@ def make_class_dict(dict):
             class_dict[current_class][DIMENSION]+=1
 
     return class_dict
+
+def make_class_member_dict(dict):
+    class_member_dict={}
+    for word in dict:
+        current_class=dict[word][CLASS]
+        if current_class not in class_member_dict:
+            class_member_dict[current_class]=[word]
+        else:
+            (class_member_dict[current_class]).append(word)
+    return class_member_dict
